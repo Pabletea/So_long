@@ -1,24 +1,30 @@
-NAME = test_window
-CC = gcc
-CFLAGS = -Wall -Wextra -Werror -O3
-MLX = mlx
-MLX_FLAGS = -L$(MLX) -lmlx -L/usr/lib -lXext -lX11 -lm -lz
-INCLUDES = -I/usr/include -I$(MLX)
-SRCS = $(wildcard *.c)
-OBJS = $(SRCS:.c=.o)
+NAME	:= Game
+CFLAGS	:= -Wextra -Wall -Werror -Wunreachable-code -Ofast
+LIBMLX	:= ./MLX42
 
-all: $(NAME)
+HEADERS	:= -I ./include -I $(LIBMLX)/include
+LIBS	:= $(LIBMLX)/build/libmlx42.a -ldl -lglfw -pthread -lm
+SRCS	:= $(wildcard *.c)
+OBJS	:= ${SRCS:.c=.o}
 
-$(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) $(MLX_FLAGS) -o $(NAME)
+all: libmlx $(NAME)
+
+libmlx:
+	@cmake $(LIBMLX) -B $(LIBMLX)/build && make -C $(LIBMLX)/build -j4
 
 %.o: %.c
-	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+	@$(CC) $(CFLAGS) -o $@ -c $< $(HEADERS) && printf "Compiling: $(notdir $<)"
+
+$(NAME): $(OBJS)
+	@$(CC) $(OBJS) $(LIBS) $(HEADERS) -o $(NAME)
 
 clean:
-	rm -f $(OBJS)
+	@rm -rf $(OBJS)
+	@rm -rf $(LIBMLX)/build
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -rf $(NAME)
 
-re: fclean all
+re: clean all
+
+.PHONY: all, clean, fclean, re, libmlx

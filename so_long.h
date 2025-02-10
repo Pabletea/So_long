@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/10 11:01:03 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/10 12:31:20 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ typedef struct s_map
 	int			y;
 	int			x;
 	int			e;
-	int			c;
+	int			collec;
 	int			c_check;
 	int			e_check;
 	int			p;

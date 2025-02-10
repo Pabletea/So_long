@@ -1,25 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   so_long.c                                          :+:      :+:    :+:   */
+/*   map_utils.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/06 18:32:40 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/10 10:49:27 by pabalons         ###   ########.fr       */
+/*   Created: 2025/02/10 10:09:57 by pabalons          #+#    #+#             */
+/*   Updated: 2025/02/10 11:16:00 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "so_long.h"
 
-// static mlx_image_t* image;
 
-int main(int ar, char **av)
+
+int validate_map(t_map *map)
 {
-    if(ar != 2)
-        return(ft_printf(2,"Error: invalid arg number\n"));
-    if(ft_strnstr(av[1],".ber",ft_strlen(av[1])) == NULL)
-        return(ft_printf(2,"Error: invalid map type\n"));
-    if(validate_map(av[1]) == -1)
-        
+    int y;
+    int x;
+    int max;
+
+    y = 0;
+    x = 0;
+    max = ft_strlen(map->array[y]);
+    while (y < map->y)
+    {
+        x = ft_strlen(map->array[y]);
+        if (max != x)
+        y++;
+    }
+    map->x = max;
+    
 }

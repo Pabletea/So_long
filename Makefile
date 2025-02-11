@@ -2,6 +2,12 @@ NAME	:= Game
 CC := cc
 CFLAGS	:= -Wextra -Wall -Werror -g
 LIBMLX	:= ./MLX42
+LIBFT_DIR := ft_libft
+PRINTF_DIR := ft_printf
+GNL_DIR := get_next_line
+LIBFT := $(LIBFT_DIR)/libft.a
+PRINTF := $(PRINTF_DIR)/libftprintf.a
+GNL := $()/
 
 HEADERS	:= -I ./include -I $(LIBMLX)/include
 LIBS	:= $(LIBMLX)/build/libmlx42.a -ldl -lglfw -pthread -lm
@@ -16,8 +22,8 @@ libmlx:
 %.o: %.c
 	@$(CC) $(CFLAGS) -o $@ -c $< $(HEADERS) && printf "Compiling: $(notdir $<)"
 
-$(NAME): $(OBJS)
-	@$(CC) $(OBJS) $(LIBS) $(HEADERS) -o $(NAME)
+$(NAME): $(OBJS) $(LIBFT) $(PRINTF)
+	@$(CC) $(OBJS) $(LIBS) $(HEADERS) -o $(NAME) $(LIBFT) $(PRINTF)
 
 clean:
 	@rm -rf $(OBJS)

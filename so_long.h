@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/10 12:31:20 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 11:27:47 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #   include <stdio.h>
 #   include <stdlib.h>
 #   include <stdbool.h>
+#	include <fcntl.h>
 #   define SO_LONG_H
 #   include "ft_libft/libft.h"
 #   include "ft_printf/ft_printf.h"
@@ -66,7 +67,7 @@ typedef struct s_map
 	int			y;
 	int			x;
 	int			e;
-	int			collec;
+	int			c;
 	int			c_check;
 	int			e_check;
 	int			p;
@@ -74,11 +75,23 @@ typedef struct s_map
 	int			moves;
 	void		*mlx;
 	void		*wnd;
-	t_img		img;
+	mlx_image_t		img;
 	t_player	player;
 
 }t_map;
 
-int validate_map(char **path);
+void validate_map(t_map *map);
+void free_array(char **arr, int i);
+void size_error();
+void map_initializer(t_map *map, char **av);
+void check_size(t_map *map);
+void    check_player(t_map *map);
+void change_route(int x, int y, t_map *map);
+void check_route(t_map *map);
+void    check_param(t_map *map);
+
+void error_map_elements(t_map *map);
+void file_error(void);
+void wall_error(t_map *map);
 
 #endif

@@ -6,16 +6,17 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 10:32:11 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/10 10:32:59 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 11:36:46 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
 
-char *get_path(char *av)
-{
-    char *path;
 
-    
-    return(path);
+
+void free_array(char **arr, int i)
+{
+    while(i > 0)
+        free(arr[--i]);
+    free(arr);
 }

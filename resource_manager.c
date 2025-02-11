@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 16:14:30 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 19:14:37 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 20:11:44 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,23 +46,23 @@ void map_printer(t_map *map)
 
 void file_to_image_player(t_map *map)
 {
-    map->img.player_left1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
-    map->img.player_right1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
+    map->img.player_left1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_left1.png"));
+    map->img.player_right1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_right1.png"));
     map->img.player_up1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
-    map->img.player_down1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
-    map->img.player_left2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
-    map->img.player_right2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
+    map->img.player_down1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_down1.png"));
+    map->img.player_left2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_left1.png"));
+    map->img.player_right2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_right1.png"));
     map->img.player_up2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
-    map->img.player_down2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
+    map->img.player_down2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_down1.png"));
 }
 
 void file_to_image(t_map *map)
 {
-    map->img.empty = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/wall.png"));
+    map->img.empty = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/empty.png"));
     map->img.wall = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/wall.png"));
     map->img.exit = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/wall.png"));
-    map->img.collectible = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/wall.png"));
-    map->img.enemy = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/wall.png"));
+    map->img.collectible = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/collectible.png"));
+    map->img.enemy = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/enemy.png"));
     
     file_to_image_player(map);
 }

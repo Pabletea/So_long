@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 16:51:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 18:55:38 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 21:55:49 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,13 @@ void key_hook_func(mlx_key_data_t keydata, void *param)
             close_game(map);
         else if (map->exit == 1)
             return;
-        else if (keydata.key == MLX_KEY_LEFT)
+        else if (keydata.key == LEFT)
             move_left(map);
-        else if (keydata.key == MLX_KEY_DOWN)
+        else if (keydata.key == DOWN)
             move_down(map);
-        else if (keydata.key == MLX_KEY_RIGHT)
+        else if (keydata.key == RIGHT)
             move_right(map);
-        else if (keydata.key == MLX_KEY_UP)
+        else if (keydata.key == UP)
             move_up(map);
     }
 }

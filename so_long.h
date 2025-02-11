@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 18:55:18 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 21:54:51 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@
 #   include "MLX42/MLX42.h"
 #   define PXL_IMG 50
 #   define WIN_NAME "so_long"
-#	define UP      13
-#	define DOWN    1
-#	define LEFT    0
-#	define RIGHT   2
+#	define UP      MLX_KEY_W
+#	define DOWN    MLX_KEY_S
+#	define LEFT    MLX_KEY_A
+#	define RIGHT   MLX_KEY_D
 #	define ESC     53
 
 typedef struct s_img

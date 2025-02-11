@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:32:40 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 18:49:24 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 21:20:35 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,8 @@ int main(int ar, char **av)
         mlx_key_hook(map.mlx, key_hook_func,&map);
         mlx_loop(map.mlx);
         mlx_terminate(map.mlx);
-        
-
     }
-    ft_printf(1,"DONE CHECKS");
+    else
+        ft_printf(2,"Error: no arguments provided\n");
     exit(EXIT_FAILURE);
 }

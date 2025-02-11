@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 10:32:11 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 18:41:43 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 21:16:00 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,6 +74,6 @@ void print_moves(t_map *map)
 	write(1, "\x1b[33;01m", 9);
 	write(1, move, ft_strlen(move));
 	write(1, "\x1b[0m", 5);
-	write(1, " movements", 11);
+	write(1, " movements\n", 12);
 	free(move);
 }

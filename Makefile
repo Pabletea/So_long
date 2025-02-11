@@ -7,7 +7,7 @@ PRINTF_DIR := ft_printf
 GNL_DIR := get_next_line
 LIBFT := $(LIBFT_DIR)/libft.a
 PRINTF := $(PRINTF_DIR)/libftprintf.a
-GNL := $()/
+GNL := $(GNL_DIR)/get_next_line.a
 
 HEADERS	:= -I ./include -I $(LIBMLX)/include
 LIBS	:= $(LIBMLX)/build/libmlx42.a -ldl -lglfw -pthread -lm
@@ -22,8 +22,8 @@ libmlx:
 %.o: %.c
 	@$(CC) $(CFLAGS) -o $@ -c $< $(HEADERS) && printf "Compiling: $(notdir $<)"
 
-$(NAME): $(OBJS) $(LIBFT) $(PRINTF)
-	@$(CC) $(OBJS) $(LIBS) $(HEADERS) -o $(NAME) $(LIBFT) $(PRINTF)
+$(NAME): $(OBJS) $(LIBFT) $(PRINTF) $(GNL)
+	@$(CC) $(OBJS) $(LIBS) $(HEADERS) -o $(NAME) $(LIBFT) $(PRINTF) $(GNL)
 
 clean:
 	@rm -rf $(OBJS)

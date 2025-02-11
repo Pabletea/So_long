@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/04 10:31:36 by pabalons          #+#    #+#             */
-/*   Updated: 2024/10/04 10:31:38 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 12:34:24 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,4 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	new_str[++i] = '\0';
 	return (new_str);
 }
+

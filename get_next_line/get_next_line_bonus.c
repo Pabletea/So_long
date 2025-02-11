@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 11:41:53 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 11:41:45 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 12:22:54 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static char	*fill_line(char *line_buff)
 		i++;
 	if (line_buff[i] == '\0')
 		return (NULL);
-	lefts = ft_substr(line_buff, i + 1, ft_strlen(line_buff) - i - 1);
+	lefts = ft_substr(line_buff, i + 1, ft_strlen_2(line_buff) - i - 1);
 	if (lefts && *lefts == '\0')
 	{
 		free(lefts);
@@ -60,9 +60,9 @@ static char	*fill_buffer(int fd, char *lefts, char *buff)
 			break ;
 		buff[bytes_read] = '\0';
 		if (!lefts)
-			lefts = ft_strdup("");
+			lefts = ft_strdup_2("");
 		temp = lefts;
-		lefts = ft_strjoin(temp, buff);
+		lefts = ft_strjoin_2(temp, buff);
 		free(temp);
 		if (ft_strchr(buff, '\n'))
 			break ;

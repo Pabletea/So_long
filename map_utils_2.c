@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 10:20:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 11:36:31 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 12:37:30 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,28 +58,29 @@ void check_route(t_map *map)
 
 void create_map_array(t_map *map)
 {
-    int fd;
-    map->y = 0;
-    map->line = "";
-    map->file = NULL;
-    fd = open(map->filename, O_RDONLY);
-    if(fd == -1)
-        open_error();
-    while(map->line)
-    {
+	int		fd;
+
+	map->y = 0;
+	map->line = "";
+	map->file = NULL;
+	fd = open(map->filename, O_RDONLY);
+	if (fd == -1)
+		open_error();
+	while (map->line)
+	{
 		map->line = get_next_line(fd);
 		if (map->line == NULL)
 			break ;
-		map->file = ft_strjoinfree(map->file, map->line);
+		map->file = ft_strjoin_freed(map->file, map->line);
 		free(map->line);
 		if (!map->file)
-			ft_exit_free(map);
+			free_exit_map(map);
 		map->y++;
-    }
-    close(fd);
-    map->array = ft_split(map->file,"\n");
-    map->copy = ft_split(map->file,"\n");
-    if(!map->array || !map->copy)
-        
-    free(map->file);
+	}
+	close(fd);
+	map->array = ft_split(map->file, '\n');
+	map->copy = ft_split(map->file, '\n');
+	if (!map->array || !map->copy)
+		free_exit_map(map);
+	free(map->file);
 }

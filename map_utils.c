@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 10:09:57 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 11:25:32 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 12:37:55 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,8 @@ void check_file(t_map *map)
 void validate_map(t_map *map)
 {
     check_file(map);
-    create_map_array();
+    create_map_array(map);
+
     check_size(map);
     check_wall(map);
     check_param(map);
@@ -99,8 +100,6 @@ void check_size(t_map *map)
 		y++;
 	}
 	map->x = max;
-        ft_printf(1,"DONE SIZE");
-    exit(1);
 }
 
 

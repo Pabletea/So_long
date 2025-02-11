@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 09:37:01 by pabalons          #+#    #+#             */
-/*   Updated: 2024/10/17 11:58:12 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 12:22:54 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,12 @@
 # include <unistd.h>
 # include <stdio.h>
 
+
 char	*get_next_line(int fd);
-char	*ft_strdup(const char *s);
-size_t	ft_strlen(const char *s);
+char	*ft_strdup_2(const char *s);
+size_t	ft_strlen_2(const char *s);
 char	*ft_substr(const char *s, unsigned int start, size_t len);
-char	*ft_strjoin(const char *s1, const char *s2);
+char	*ft_strjoin_2(const char *s1, const char *s2);
 void	fill_str(char *res, char *s1, char *s2);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 

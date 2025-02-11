@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 11:27:47 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 12:35:32 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 #   define SO_LONG_H
 #   include "ft_libft/libft.h"
 #   include "ft_printf/ft_printf.h"
+#	include "get_next_line/get_next_line_bonus.h"
 #   include "MLX42/MLX42.h"
 #   define WIDTH 512
 #   define HEIGHT 512
@@ -93,5 +94,9 @@ void    check_param(t_map *map);
 void error_map_elements(t_map *map);
 void file_error(void);
 void wall_error(t_map *map);
+void open_error(void);
+void free_exit_map(t_map *map);
+void create_map_array(t_map *map);
+char	*ft_strjoin_freed(char *s1, char *s2);
 
 #endif

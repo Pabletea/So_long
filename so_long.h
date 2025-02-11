@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 17:19:58 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 18:55:18 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,10 +105,13 @@ void create_map_array(t_map *map);
 char	*ft_strjoin_freed(char *s1, char *s2);
 void file_to_image(t_map *map);
 
-void key_hook_func();
+void key_hook_func(mlx_key_data_t keydata, void *param);
 void map_printer(t_map *map);
 void	move_up(t_map *map);
 void	move_left(t_map *map);
 void	move_right(t_map *map);
 void	move_down(t_map *map);
+int close_game(t_map *map);
+void move_resume(t_map *map, int x, int y, int direction);
+void print_moves(t_map *map);
 #endif

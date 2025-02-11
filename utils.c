@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 10:32:11 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 12:35:26 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 18:41:43 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,4 +55,25 @@ char	*ft_strjoin_freed(char *s1, char *s2)
 	str[s1len + s2len] = '\0';
 	free(s1);
 	return (str);
+}
+
+int close_game(t_map *map)
+{
+	mlx_terminate(map->mlx);
+	free_array(map->array,map->y);
+	exit(EXIT_SUCCESS);
+	return(0);
+}
+
+void print_moves(t_map *map)
+{
+	char *move;
+
+	move = ft_itoa(map->moves);
+	write(1, "\r", 1);
+	write(1, "\x1b[33;01m", 9);
+	write(1, move, ft_strlen(move));
+	write(1, "\x1b[0m", 5);
+	write(1, " movements", 11);
+	free(move);
 }

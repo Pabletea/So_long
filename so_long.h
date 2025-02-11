@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 12:35:32 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 13:08:27 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@
 #   include "ft_printf/ft_printf.h"
 #	include "get_next_line/get_next_line_bonus.h"
 #   include "MLX42/MLX42.h"
-#   define WIDTH 512
-#   define HEIGHT 512
+#   define PXL_IMG 50
+#   define WIN_NAME "so_long"
 
 typedef struct s_img
 {

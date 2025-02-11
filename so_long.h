@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 13:08:27 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/11 17:19:58 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,11 @@
 #   include "MLX42/MLX42.h"
 #   define PXL_IMG 50
 #   define WIN_NAME "so_long"
+#	define UP      13
+#	define DOWN    1
+#	define LEFT    0
+#	define RIGHT   2
+#	define ESC     53
 
 typedef struct s_img
 {
@@ -76,7 +81,7 @@ typedef struct s_map
 	int			moves;
 	void		*mlx;
 	void		*wnd;
-	mlx_image_t		img;
+	t_img		img;
 	t_player	player;
 
 }t_map;
@@ -98,5 +103,12 @@ void open_error(void);
 void free_exit_map(t_map *map);
 void create_map_array(t_map *map);
 char	*ft_strjoin_freed(char *s1, char *s2);
+void file_to_image(t_map *map);
 
+void key_hook_func();
+void map_printer(t_map *map);
+void	move_up(t_map *map);
+void	move_left(t_map *map);
+void	move_right(t_map *map);
+void	move_down(t_map *map);
 #endif

@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 17:18:47 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 14:30:01 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 14:38:21 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,7 @@ void	move_up(t_map *map)
 		{
 			map->c--;
 			if (map->c == 0)
-			{
 				map->exit = 1; // Se desbloquea la salida
-				ft_printf(1, "¡La salida está desbloqueada!\n");
-			}
 		}
 		move_resume(map, x, y, UP);
 		if (map->array[y - 1][x] == 'E' && map->exit == 1)
@@ -113,7 +110,7 @@ void	move_right(t_map *map)
 
 	x = map->player.x;
 	y = map->player.y;
-	if (x < map->x && map->array[y][x + 1] != '1')
+	if (x > 0 && map->array[y][x + 1] != '1')
 	{
 		if (map->array[y][x + 1] == 'C')
 		{
@@ -128,12 +125,12 @@ void	move_right(t_map *map)
         mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
 		map->array[y][x] = '0';
 		x++;
+		print_moves(map);
         mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
         mlx_image_to_window(map->mlx, map->img.player_right1, x * PXL_IMG, y * PXL_IMG);
 		map->array[y][x] = 'P';
-		print_moves(map);
+		map->player.y = y;
 	}
-	map->player.x = x;
 }
 
 void exit_map(t_map *map)

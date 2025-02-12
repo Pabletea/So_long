@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 10:20:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 20:21:11 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 14:09:48 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,11 @@ void    check_param(t_map *map)
 			if (map->array[y][x] == 'C')
 				map->c += 1;
 			else if (map->array[y][x] == 'E')
+			{
 				map->e += 1;
+				map->exit_x = x;
+				map->exit_y = y;
+			}
 			else if (map->array[y][x] == 'P')
 				map->p += 1;
 			else if (map->array[y][x] == '0' || map->array[y][x] == '1');

@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 13:56:15 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 14:09:18 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,6 +80,8 @@ typedef struct s_map
 	int			e_check;
 	int			p;
 	int			exit;
+	int			exit_x;
+	int			exit_y;
 	int			moves;
 	void		*mlx;
 	void		*wnd;

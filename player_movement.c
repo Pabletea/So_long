@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 17:18:47 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 14:38:21 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:21:06 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,9 @@
 
 void	move_up(t_map *map)
 {
-	int	x;
-	int	y;
+	int	x = map->player.x;
+	int	y = map->player.y;
 
-	x = map->player.x;
-	y = map->player.y;
 	if (y > 0 && map->array[y - 1][x] != '1')
 	{
 		if (map->array[y - 1][x] == 'C')
@@ -27,50 +25,81 @@ void	move_up(t_map *map)
 			if (map->c == 0)
 				map->exit = 1; // Se desbloquea la salida
 		}
-		move_resume(map, x, y, UP);
-		if (map->array[y - 1][x] == 'E' && map->exit == 1)
-			exit_map(map);
-		map->moves++;
-        mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
-		map->array[y][x] = '0';
+
+		// Si el jugador está sobre la salida, debe restaurarla antes de moverse
+		if (x == map->exit_x && y == map->exit_y)
+		{
+			// Restaurar la salida en la posición actual
+			mlx_image_to_window(map->mlx, map->img.exit, x * PXL_IMG, y * PXL_IMG);
+			map->array[y][x] = 'E';
+		}
+		else 
+		{
+			if (map->array[y - 1][x] == 'E' && map->exit == 1)
+				exit_map(map);
+			else
+			{
+				// Actualizar la posición anterior a vacío solo si no es la salida
+				if (map->array[y][x] != 'E')
+					map->array[y][x] = '0';
+
+				// Dibujar la casilla vacía
+				mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
+			}
+		}
+
+		// Mover al jugador hacia arriba
 		y--;
+
 		print_moves(map);
-        mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
-        mlx_image_to_window(map->mlx, map->img.player_up1, x * PXL_IMG + 8, y * PXL_IMG);
+
+		// Dibujar la nueva posición del jugador
+		mlx_image_to_window(map->mlx, map->img.player_up1, x * PXL_IMG, y * PXL_IMG);
 		map->array[y][x] = 'P';
-		map->player.x = x;
+		map->player.y = y;
 	}
 }
 
+
+
 void	move_down(t_map *map)
 {
-	int	x;
-	int	y;
+	int	x = map->player.x;
+	int	y = map->player.y;
 
-	x = map->player.x;
-	y = map->player.y;
-	if (y < map->y && map->array[y + 1][x] != '1')
+	if (y < map->y - 1 && map->array[y + 1][x] != '1')
 	{
 		if (map->array[y + 1][x] == 'C')
 		{
 			map->c--;
 			if (map->c == 0)
-				map->exit = 1; // Se desbloquea la salida
+				map->exit = 1;
 		}
-		move_resume(map, x, y, DOWN);
-		if (map->array[y + 1][x] == 'E' && (map->c != 0 || map->exit == 1))
-			exit_map(map);
-		map->moves++;
-        mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
-		map->array[y][x] = '0';
+		if (x == map->exit_x && y == map->exit_y)
+		{
+			mlx_image_to_window(map->mlx, map->img.exit, x * PXL_IMG, y * PXL_IMG);
+			map->array[y][x] = 'E';
+		}
+		else 
+		{
+			if (map->array[y + 1][x] == 'E' && map->exit == 1)
+				exit_map(map);
+			else
+			{
+				if (map->array[y][x] != 'E')
+					map->array[y][x] = '0';
+				mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
+			}
+		}
 		y++;
-        mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
-        mlx_image_to_window(map->mlx, map->img.player_down1, x * PXL_IMG + 8, y * PXL_IMG);
-		map->array[y][x] = 'P';
 		print_moves(map);
+		mlx_image_to_window(map->mlx, map->img.player_down_basic1, x * PXL_IMG, y * PXL_IMG);
+		map->array[y][x] = 'P';
 		map->player.y = y;
 	}
 }
+
+
 
 
 void	move_left(t_map *map)
@@ -88,7 +117,7 @@ void	move_left(t_map *map)
 			if (map->c == 0)
 				map->exit = 1; // Se desbloquea la salida
 		}
-		move_resume(map, x, y, LEFT);
+		// move_resume(map, x, y, LEFT);
 		if (map->array[y][x - 1] == 'E' && (map->c != 0 || map->exit == 1))
 			exit_map(map);
 		map->moves++;
@@ -118,7 +147,7 @@ void	move_right(t_map *map)
 			if (map->c == 0)
 				map->exit = 1; // Se desbloquea la salida
 		}
-		move_resume(map, x, y, RIGHT);
+		// move_resume(map, x, y, RIGHT);
 		if (map->array[y][x + 1] == 'E' && (map->c != 0 || map->exit == 1))
 			exit_map(map);
 		map->moves++;

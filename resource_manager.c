@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 16:14:30 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 14:44:51 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:20:31 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ void file_to_image_player(t_map *map)
     map->img.player_right2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_right1.png"));
     map->img.player_up2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_up1.png"));
     map->img.player_down2 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_down1.png"));
+    map->img.player_down_basic1 = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/player/player_down_basic1.png"));
 }
 
 void file_to_image(t_map *map)

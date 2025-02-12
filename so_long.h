@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 14:21:23 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:20:20 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ typedef struct s_img
 	void	*player_right1;
 	void	*player_up1;
 	void	*player_down1;
+	void	*player_down_basic1;
 	void	*player_left2;
 	void	*player_right2;
 	void	*player_up2;

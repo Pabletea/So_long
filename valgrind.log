@@ -1,86 +1,189 @@
-==1249954== Memcheck, a memory error detector
-==1249954== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==1249954== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==1249954== Command: ./so_long ./maps/map.ber
-==1249954== Parent PID: 1243864
-==1249954== 
-==1249954== Invalid read of size 8
-==1249954==    at 0x40286A8: strncmp (strcmp.S:172)
-==1249954==    by 0x400668D: is_dst (dl-load.c:216)
-==1249954==    by 0x400810E: _dl_dst_count (dl-load.c:253)
-==1249954==    by 0x400810E: expand_dynamic_string_token (dl-load.c:395)
-==1249954==    by 0x40082B7: fillin_rpath.isra.0 (dl-load.c:483)
-==1249954==    by 0x4008602: decompose_rpath (dl-load.c:654)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1249954==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1249954==    by 0x4003494: openaux (dl-deps.c:64)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1249954==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1249954==  Address 0x4fbe809 is 9 bytes inside a block of size 15 alloc'd
-==1249954==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1249954==    by 0x40271DF: malloc (rtld-malloc.h:56)
-==1249954==    by 0x40271DF: strdup (strdup.c:42)
-==1249954==    by 0x4008594: decompose_rpath (dl-load.c:629)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1249954==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1249954==    by 0x4003494: openaux (dl-deps.c:64)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1249954==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x400E34D: _dl_open (dl-open.c:883)
-==1249954== 
-==1249954== Invalid read of size 8
-==1249954==    at 0x40286A8: strncmp (strcmp.S:172)
-==1249954==    by 0x400668D: is_dst (dl-load.c:216)
-==1249954==    by 0x4007F79: _dl_dst_substitute (dl-load.c:295)
-==1249954==    by 0x40082B7: fillin_rpath.isra.0 (dl-load.c:483)
-==1249954==    by 0x4008602: decompose_rpath (dl-load.c:654)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1249954==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1249954==    by 0x4003494: openaux (dl-deps.c:64)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1249954==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1249954==  Address 0x4fbe809 is 9 bytes inside a block of size 15 alloc'd
-==1249954==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1249954==    by 0x40271DF: malloc (rtld-malloc.h:56)
-==1249954==    by 0x40271DF: strdup (strdup.c:42)
-==1249954==    by 0x4008594: decompose_rpath (dl-load.c:629)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1249954==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1249954==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1249954==    by 0x4003494: openaux (dl-deps.c:64)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1249954==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1249954==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1249954==    by 0x400E34D: _dl_open (dl-open.c:883)
-==1249954== 
-==1249954== 
-==1249954== HEAP SUMMARY:
-==1249954==     in use at exit: 448,267 bytes in 3,133 blocks
-==1249954==   total heap usage: 115,058 allocs, 111,925 frees, 42,639,735 bytes allocated
-==1249954== 
-==1249954== LEAK SUMMARY:
-==1249954==    definitely lost: 312 bytes in 14 blocks
-==1249954==    indirectly lost: 130,000 bytes in 13 blocks
-==1249954==      possibly lost: 0 bytes in 0 blocks
-==1249954==    still reachable: 317,955 bytes in 3,106 blocks
-==1249954==         suppressed: 0 bytes in 0 blocks
-==1249954== Rerun with --leak-check=full to see details of leaked memory
-==1249954== 
-==1249954== For lists of detected and suppressed errors, rerun with: -s
-==1249954== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==1410047== Memcheck, a memory error detector
+==1410047== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1410047== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1410047== Command: ./so_long ./maps/map.ber
+==1410047== Parent PID: 1407609
+==1410047== 
+==1410047== Invalid read of size 8
+==1410047==    at 0x40286A8: strncmp (strcmp.S:172)
+==1410047==    by 0x400668D: is_dst (dl-load.c:216)
+==1410047==    by 0x400810E: _dl_dst_count (dl-load.c:253)
+==1410047==    by 0x400810E: expand_dynamic_string_token (dl-load.c:395)
+==1410047==    by 0x40082B7: fillin_rpath.isra.0 (dl-load.c:483)
+==1410047==    by 0x4008602: decompose_rpath (dl-load.c:654)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:696)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:677)
+==1410047==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
+==1410047==    by 0x4003494: openaux (dl-deps.c:64)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+==1410047==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400DF99: dl_open_worker (dl-open.c:782)
+==1410047==  Address 0x4fbe809 is 9 bytes inside a block of size 15 alloc'd
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x40271DF: malloc (rtld-malloc.h:56)
+==1410047==    by 0x40271DF: strdup (strdup.c:42)
+==1410047==    by 0x4008594: decompose_rpath (dl-load.c:629)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:696)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:677)
+==1410047==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
+==1410047==    by 0x4003494: openaux (dl-deps.c:64)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+==1410047==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400DF99: dl_open_worker (dl-open.c:782)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400E34D: _dl_open (dl-open.c:883)
+==1410047== 
+==1410047== Invalid read of size 8
+==1410047==    at 0x40286A8: strncmp (strcmp.S:172)
+==1410047==    by 0x400668D: is_dst (dl-load.c:216)
+==1410047==    by 0x4007F79: _dl_dst_substitute (dl-load.c:295)
+==1410047==    by 0x40082B7: fillin_rpath.isra.0 (dl-load.c:483)
+==1410047==    by 0x4008602: decompose_rpath (dl-load.c:654)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:696)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:677)
+==1410047==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
+==1410047==    by 0x4003494: openaux (dl-deps.c:64)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+==1410047==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400DF99: dl_open_worker (dl-open.c:782)
+==1410047==  Address 0x4fbe809 is 9 bytes inside a block of size 15 alloc'd
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x40271DF: malloc (rtld-malloc.h:56)
+==1410047==    by 0x40271DF: strdup (strdup.c:42)
+==1410047==    by 0x4008594: decompose_rpath (dl-load.c:629)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:696)
+==1410047==    by 0x400ABF5: cache_rpath (dl-load.c:677)
+==1410047==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
+==1410047==    by 0x4003494: openaux (dl-deps.c:64)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+==1410047==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400DF99: dl_open_worker (dl-open.c:782)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400E34D: _dl_open (dl-open.c:883)
+==1410047== 
+==1410047== 
+==1410047== HEAP SUMMARY:
+==1410047==     in use at exit: 448,267 bytes in 3,133 blocks
+==1410047==   total heap usage: 116,163 allocs, 113,030 frees, 42,882,099 bytes allocated
+==1410047== 
+==1410047== 0 bytes in 1 blocks are definitely lost in loss record 1 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x4005A22: malloc (rtld-malloc.h:56)
+==1410047==    by 0x4005A22: _dl_find_object_update (dl-find_object.c:791)
+==1410047==    by 0x400ECCF: dl_open_worker_begin (dl-open.c:735)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400DF99: dl_open_worker (dl-open.c:782)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x400E34D: _dl_open (dl-open.c:883)
+==1410047==    by 0x4A5263B: dlopen_doit (dlopen.c:56)
+==1410047==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
+==1410047==    by 0x4B36B62: _dl_catch_error (dl-error-skeleton.c:227)
+==1410047==    by 0x4A5212D: _dlerror_run (dlerror.c:138)
+==1410047==    by 0x4A526C7: dlopen_implementation (dlopen.c:71)
+==1410047==    by 0x4A526C7: dlopen@@GLIBC_2.34 (dlopen.c:81)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,281 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403D36: file_to_image (resource_manager.c:58)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,282 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403D68: file_to_image (resource_manager.c:59)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,283 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403D9D: file_to_image (resource_manager.c:60)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,284 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403DD2: file_to_image (resource_manager.c:61)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,285 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403E07: file_to_image (resource_manager.c:62)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,286 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403B76: file_to_image_player (resource_manager.c:46)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,287 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403BAB: file_to_image_player (resource_manager.c:47)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,288 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403BE0: file_to_image_player (resource_manager.c:48)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,289 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403C15: file_to_image_player (resource_manager.c:49)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,290 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403C4A: file_to_image_player (resource_manager.c:50)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,291 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403C7F: file_to_image_player (resource_manager.c:51)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,292 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403CB4: file_to_image_player (resource_manager.c:52)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== 10,024 (24 direct, 10,000 indirect) bytes in 1 blocks are definitely lost in loss record 2,293 of 2,297
+==1410047==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1410047==    by 0x406470: mlx_load_png (in /home/pabalons/42Cursus/42-GH/So_long/so_long)
+==1410047==    by 0x403CE9: file_to_image_player (resource_manager.c:53)
+==1410047==    by 0x403E27: file_to_image (resource_manager.c:63)
+==1410047==    by 0x403EDB: main (so_long.c:29)
+==1410047== 
+==1410047== LEAK SUMMARY:
+==1410047==    definitely lost: 312 bytes in 14 blocks
+==1410047==    indirectly lost: 130,000 bytes in 13 blocks
+==1410047==      possibly lost: 0 bytes in 0 blocks
+==1410047==    still reachable: 317,955 bytes in 3,106 blocks
+==1410047==         suppressed: 0 bytes in 0 blocks
+==1410047== Reachable blocks (those to which a pointer was found) are not shown.
+==1410047== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==1410047== 
+==1410047== For lists of detected and suppressed errors, rerun with: -s
+==1410047== ERROR SUMMARY: 16 errors from 16 contexts (suppressed: 0 from 0)

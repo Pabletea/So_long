@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 21:54:51 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 13:56:15 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ typedef struct s_img
 	void	*collectible;
 	void	*wall;
 	void	*exit;
+	void	*exit_open;
 	void	*player_left1;
 	void	*player_right1;
 	void	*player_up1;
@@ -49,6 +50,7 @@ typedef struct s_player
 {
 	int	y;
 	int	x;
+	int on_exit;
 
 }t_player;
 

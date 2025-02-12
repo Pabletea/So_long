@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 10:09:57 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 17:55:08 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:46:21 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ void	map_initializer(t_map *map, char **av)
 	map->player.x = 0;
 	map->exit = 0;
 }
+
 void	check_wall(t_map *map)
 {
 	int	x;

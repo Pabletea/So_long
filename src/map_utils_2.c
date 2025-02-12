@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 10:20:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 17:54:41 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 19:57:04 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ void	check_param(t_map *map)
 	int	x;
 
 	y = 0;
-	x = 0;
 	while (y < map->y)
 	{
+		x = 0;
 		while (x < map->x)
 		{
 			if (map->array[y][x] == 'C')
@@ -33,18 +33,16 @@ void	check_param(t_map *map)
 			}
 			else if (map->array[y][x] == 'P')
 				map->p += 1;
-			else if (map->array[y][x] == '0' || map->array[y][x] == '1')
-				;
-			else
+			else if (map->array[y][x] != '0' && map->array[y][x] != '1') 
 				error_map_elements(map);
 			x++;
 		}
-		x = 0;
 		y++;
 	}
 	if (map->c < 1 || map->e < 1 || map->p != 1)
 		error_map_elements(map);
 }
+
 
 void	check_route(t_map *map)
 {
@@ -64,7 +62,7 @@ void	check_route(t_map *map)
 
 void	create_map_array(t_map *map)
 {
-	int fd;
+	int	fd;
 
 	map->y = 0;
 	map->line = "";

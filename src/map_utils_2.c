@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 10:20:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 20:16:26 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 22:29:12 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,4 +91,25 @@ void	create_map_array(t_map *map)
 	if (!map->array || !map->copy)
 		free_exit_map(map);
 	free(map->file);
+}
+
+void	exit_map(t_map *map)
+{
+	int	x;
+	int	y;
+
+	x = map->player.x;
+	y = map->player.y;
+	map->moves++;
+	mlx_image_to_window(map->mlx, map->img.empty, x * PXL_IMG, y * PXL_IMG);
+	map->array[y][x] = '0';
+	y--;
+	map->player.y = y;
+	mlx_image_to_window(map->mlx, map->img.exit_open, x * PXL_IMG, y * PXL_IMG);
+	mlx_image_to_window(map->mlx, map->img.player_up1, x * PXL_IMG, y
+		* PXL_IMG);
+	map->array[y][x] = 'P';
+	print_moves(map);
+	ft_printf(1, "Has ganado\n");
+	close_game(map);
 }

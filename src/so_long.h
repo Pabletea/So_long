@@ -6,15 +6,15 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 22:13:52 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 22:50:04 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
+# include <fcntl.h>
 # include <stdbool.h>
 # include <stdio.h>
 # include <stdlib.h>
-# include <fcntl.h>
 # define SO_LONG_H
 # include "../ft_libft/libft.h"
 # include "../ft_printf/ft_printf.h"
@@ -112,4 +112,8 @@ void			print_moves(t_map *map);
 void			exit_map(t_map *map);
 void			file_to_image_player(t_map *map);
 void			free_images(t_map *map);
+void			clear_previous_tile(t_map *map, int x, int y);
+void			update_exit_tile(t_map *map, int x, int y);
+void			update_player_position(t_map *map, int nx, int ny,
+					mlx_image_t *player_img);
 #endif

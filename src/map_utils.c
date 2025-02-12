@@ -6,14 +6,13 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 10:09:57 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 12:37:55 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:55:08 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "so_long.h"
 
-void map_initializer(t_map *map, char **av)
+void	map_initializer(t_map *map, char **av)
 {
 	map->filename = av[1];
 	map->moves = 0;
@@ -25,11 +24,11 @@ void map_initializer(t_map *map, char **av)
 	map->player.x = 0;
 	map->exit = 0;
 }
-void check_wall(t_map *map)
+void	check_wall(t_map *map)
 {
-    int x;
-    int y;
-    
+	int	x;
+	int	y;
+
 	x = 0;
 	while (x < map->x)
 	{
@@ -53,7 +52,7 @@ void check_wall(t_map *map)
 	}
 }
 
-void check_file(t_map *map)
+void	check_file(t_map *map)
 {
 	size_t	len;
 
@@ -70,20 +69,18 @@ void check_file(t_map *map)
 		file_error();
 }
 
-void validate_map(t_map *map)
+void	validate_map(t_map *map)
 {
-    check_file(map);
-    create_map_array(map);
-
-    check_size(map);
-    check_wall(map);
-    check_param(map);
-    check_route(map);
-    free_array(map->copy,map->y);
-
+	check_file(map);
+	create_map_array(map);
+	check_size(map);
+	check_wall(map);
+	check_param(map);
+	check_route(map);
+	free_array(map->copy, map->y);
 }
 
-void check_size(t_map *map)
+void	check_size(t_map *map)
 {
 	int	y;
 	int	x;
@@ -101,5 +98,3 @@ void check_size(t_map *map)
 	}
 	map->x = max;
 }
-
-

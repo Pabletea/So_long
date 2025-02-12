@@ -11,7 +11,7 @@ GNL := $(GNL_DIR)/get_next_line.a
 
 HEADERS	:= -I ./include -I $(LIBMLX)/include
 LIBS	:= $(LIBMLX)/build/libmlx42.a -ldl -lglfw -pthread -lm
-SRCS	:= $(wildcard *.c)
+SRCS	:= $(wildcard ./src/*.c)
 OBJS	:= ${SRCS:.c=.o}
 
 all: libmlx $(NAME)

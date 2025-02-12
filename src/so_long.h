@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 17:33:19 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:52:48 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 #   include <stdbool.h>
 #	include <fcntl.h>
 #   define SO_LONG_H
-#   include "ft_libft/libft.h"
-#   include "ft_printf/ft_printf.h"
-#	include "get_next_line/get_next_line_bonus.h"
+#   include "../ft_libft/libft.h"
+#   include "../ft_printf/ft_printf.h"
+#	include "../get_next_line/get_next_line_bonus.h"
 #   include "MLX42/MLX42.h"
 #   define PXL_IMG 50
 #   define WIN_NAME "so_long"

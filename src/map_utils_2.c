@@ -6,13 +6,13 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 10:20:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 15:49:58 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:54:41 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
 
-void    check_param(t_map *map)
+void	check_param(t_map *map)
 {
 	int	y;
 	int	x;
@@ -33,7 +33,8 @@ void    check_param(t_map *map)
 			}
 			else if (map->array[y][x] == 'P')
 				map->p += 1;
-			else if (map->array[y][x] == '0' || map->array[y][x] == '1');
+			else if (map->array[y][x] == '0' || map->array[y][x] == '1')
+				;
 			else
 				error_map_elements(map);
 			x++;
@@ -45,25 +46,25 @@ void    check_param(t_map *map)
 		error_map_elements(map);
 }
 
-void check_route(t_map *map)
+void	check_route(t_map *map)
 {
-    map->c_check = map->c;
-    map->e_check = map->e;
-    check_player(map);
+	map->c_check = map->c;
+	map->e_check = map->e;
+	check_player(map);
 	change_route(map->player.x, map->player.y, map);
 	if (map->c_check != 0 || map->e_check >= map->e)
 	{
-		ft_printf(2,"Error\n");
-        ft_printf(2,"No valid path");
+		ft_printf(2, "Error\n");
+		ft_printf(2, "No valid path");
 		free_array(map->array, map->y);
 		free_array(map->copy, map->y);
 		exit(EXIT_FAILURE);
 	}
 }
 
-void create_map_array(t_map *map)
+void	create_map_array(t_map *map)
 {
-	int		fd;
+	int fd;
 
 	map->y = 0;
 	map->line = "";

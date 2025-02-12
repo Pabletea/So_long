@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 17:18:47 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 17:24:11 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:26:12 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -189,12 +189,9 @@ void	move_right(t_map *map)
 			}
 		}
 
-		// Mover al jugador hacia la derecha
 		x++;
 		map->moves++;
 		print_moves(map);
-
-		// Dibujar la nueva posición del jugador
 		mlx_image_to_window(map->mlx, map->img.player_right1, x * PXL_IMG, y * PXL_IMG);
 		map->array[y][x] = 'P';
 		map->player.x = x;

@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:29:34 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 19:43:08 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 22:13:52 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,6 +110,6 @@ int				close_game(t_map *map);
 void			move_resume(t_map *map, int x, int y, int direction);
 void			print_moves(t_map *map);
 void			exit_map(t_map *map);
-
+void			file_to_image_player(t_map *map);
 void			free_images(t_map *map);
 #endif

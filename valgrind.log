@@ -1,103 +1,36 @@
-==1441643== Memcheck, a memory error detector
-==1441643== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==1441643== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==1441643== Command: ./so_long ./maps/map.ber
-==1441643== Parent PID: 1407609
-==1441643== 
-==1441643== Invalid read of size 8
-==1441643==    at 0x40286A8: strncmp (strcmp.S:172)
-==1441643==    by 0x400668D: is_dst (dl-load.c:216)
-==1441643==    by 0x400810E: _dl_dst_count (dl-load.c:253)
-==1441643==    by 0x400810E: expand_dynamic_string_token (dl-load.c:395)
-==1441643==    by 0x40082B7: fillin_rpath.isra.0 (dl-load.c:483)
-==1441643==    by 0x4008602: decompose_rpath (dl-load.c:654)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1441643==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1441643==    by 0x4003494: openaux (dl-deps.c:64)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1441643==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1441643==  Address 0x4fbe809 is 9 bytes inside a block of size 15 alloc'd
-==1441643==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1441643==    by 0x40271DF: malloc (rtld-malloc.h:56)
-==1441643==    by 0x40271DF: strdup (strdup.c:42)
-==1441643==    by 0x4008594: decompose_rpath (dl-load.c:629)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1441643==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1441643==    by 0x4003494: openaux (dl-deps.c:64)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1441643==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400E34D: _dl_open (dl-open.c:883)
-==1441643== 
-==1441643== Invalid read of size 8
-==1441643==    at 0x40286A8: strncmp (strcmp.S:172)
-==1441643==    by 0x400668D: is_dst (dl-load.c:216)
-==1441643==    by 0x4007F79: _dl_dst_substitute (dl-load.c:295)
-==1441643==    by 0x40082B7: fillin_rpath.isra.0 (dl-load.c:483)
-==1441643==    by 0x4008602: decompose_rpath (dl-load.c:654)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1441643==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1441643==    by 0x4003494: openaux (dl-deps.c:64)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1441643==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1441643==  Address 0x4fbe809 is 9 bytes inside a block of size 15 alloc'd
-==1441643==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1441643==    by 0x40271DF: malloc (rtld-malloc.h:56)
-==1441643==    by 0x40271DF: strdup (strdup.c:42)
-==1441643==    by 0x4008594: decompose_rpath (dl-load.c:629)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:696)
-==1441643==    by 0x400ABF5: cache_rpath (dl-load.c:677)
-==1441643==    by 0x400ABF5: _dl_map_object (dl-load.c:2165)
-==1441643==    by 0x4003494: openaux (dl-deps.c:64)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
-==1441643==    by 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400E34D: _dl_open (dl-open.c:883)
-==1441643== 
-==1441643== 
-==1441643== HEAP SUMMARY:
-==1441643==     in use at exit: 317,955 bytes in 3,107 blocks
-==1441643==   total heap usage: 103,283 allocs, 100,176 frees, 38,453,351 bytes allocated
-==1441643== 
-==1441643== 0 bytes in 1 blocks are definitely lost in loss record 1 of 2,271
-==1441643==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1441643==    by 0x4005A22: malloc (rtld-malloc.h:56)
-==1441643==    by 0x4005A22: _dl_find_object_update (dl-find_object.c:791)
-==1441643==    by 0x400ECCF: dl_open_worker_begin (dl-open.c:735)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400DF99: dl_open_worker (dl-open.c:782)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x400E34D: _dl_open (dl-open.c:883)
-==1441643==    by 0x4A5263B: dlopen_doit (dlopen.c:56)
-==1441643==    by 0x4B36A97: _dl_catch_exception (dl-error-skeleton.c:208)
-==1441643==    by 0x4B36B62: _dl_catch_error (dl-error-skeleton.c:227)
-==1441643==    by 0x4A5212D: _dlerror_run (dlerror.c:138)
-==1441643==    by 0x4A526C7: dlopen_implementation (dlopen.c:71)
-==1441643==    by 0x4A526C7: dlopen@@GLIBC_2.34 (dlopen.c:81)
-==1441643== 
-==1441643== LEAK SUMMARY:
-==1441643==    definitely lost: 0 bytes in 1 blocks
-==1441643==    indirectly lost: 0 bytes in 0 blocks
-==1441643==      possibly lost: 0 bytes in 0 blocks
-==1441643==    still reachable: 317,955 bytes in 3,106 blocks
-==1441643==         suppressed: 0 bytes in 0 blocks
-==1441643== Reachable blocks (those to which a pointer was found) are not shown.
-==1441643== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==1441643== 
-==1441643== For lists of detected and suppressed errors, rerun with: -s
-==1441643== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+==8332== Memcheck, a memory error detector
+==8332== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==8332== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==8332== Command: ./so_long ./maps/map.ber
+==8332== Parent PID: 2931
+==8332== 
+==8332== 
+==8332== HEAP SUMMARY:
+==8332==     in use at exit: 299,918 bytes in 3,306 blocks
+==8332==   total heap usage: 140,230 allocs, 136,924 frees, 99,005,492 bytes allocated
+==8332== 
+==8332== 112 (56 direct, 56 indirect) bytes in 1 blocks are definitely lost in loss record 2,505 of 2,538
+==8332==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==8332==    by 0x689DF7D: ???
+==8332==    by 0x633BC23: ???
+==8332==    by 0x6324560: ???
+==8332==    by 0x6324747: ???
+==8332==    by 0x62D179E: ???
+==8332==    by 0x62D4551: ???
+==8332==    by 0x62CF054: ???
+==8332==    by 0x627602F: ???
+==8332==    by 0x62B8C4B: ???
+==8332==    by 0x62B46D7: ???
+==8332==    by 0x62455F2: ???
+==8332== 
+==8332== LEAK SUMMARY:
+==8332==    definitely lost: 56 bytes in 1 blocks
+==8332==    indirectly lost: 56 bytes in 1 blocks
+==8332==      possibly lost: 0 bytes in 0 blocks
+==8332==    still reachable: 299,806 bytes in 3,304 blocks
+==8332==         suppressed: 0 bytes in 0 blocks
+==8332== Reachable blocks (those to which a pointer was found) are not shown.
+==8332== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==8332== 
+==8332== For lists of detected and suppressed errors, rerun with: -s
+==8332== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

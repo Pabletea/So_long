@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 10:20:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 14:09:48 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 14:55:23 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,8 @@ void check_route(t_map *map)
 	change_route(map->player.x, map->player.y, map);
 	if (map->c_check != 0 || map->e_check >= map->e)
 	{
-        ft_printf(2,"Error: no valid path");
+		ft_printf(2,"Error\n");
+        ft_printf(2,"No valid path");
 		free_array(map->array, map->y);
 		free_array(map->copy, map->y);
 		exit(EXIT_FAILURE);

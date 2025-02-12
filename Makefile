@@ -1,4 +1,4 @@
-NAME	:= Game
+NAME	:= so_long
 CC := cc
 CFLAGS	:= -Wextra -Wall -Werror -g
 LIBMLX	:= ./MLX42

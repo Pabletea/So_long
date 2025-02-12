@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 20:28:33 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 21:13:16 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 14:55:06 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 
 void size_error(t_map *map)
 {
-    ft_printf(2,"Error: invalid map size\n");
+    ft_printf(2,"Error\n");
+    ft_printf(2,"Invalid map size\n");
     free_array(map->array, map->y);
     free_array(map->copy, map->y);
     exit(EXIT_FAILURE);   
@@ -23,7 +24,8 @@ void size_error(t_map *map)
 
 void error_map_elements(t_map *map)
 {
-    ft_printf(2,"Error: invalid map elements\n");
+    ft_printf(2,"Error\n");
+    ft_printf(2,"Invalid map elements\n");
     free_array(map->array, map->y);
     free_array(map->copy, map->y);
     exit(EXIT_FAILURE);
@@ -31,13 +33,15 @@ void error_map_elements(t_map *map)
 
 void file_error(void)
 {
-    ft_printf(2,"Error: The file extension isn't .ber\n");
+    ft_printf(2,"Error\n");
+    ft_printf(2,"The file extension isn't .ber\n");
     exit(EXIT_FAILURE);
 }
 
 void wall_error(t_map *map)
 {
-    ft_printf(2,"Error: Wall failure\n");
+    ft_printf(2,"Error\n");
+    ft_printf(2,"Wall failure\n");
     free_array(map->array, map->y);
     free_array(map->copy, map->y);
     exit(EXIT_FAILURE);
@@ -45,6 +49,7 @@ void wall_error(t_map *map)
 
 void open_error(void)
 {
-    ft_printf(2,"Error: open failed\n");
+    ft_printf(2,"Error\n");
+    ft_printf(2,"Open failed\n");
     exit(EXIT_FAILURE);
 }

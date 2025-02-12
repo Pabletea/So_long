@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 16:14:30 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 13:57:15 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 14:44:51 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,8 +60,6 @@ void file_to_image(t_map *map)
     map->img.exit = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/exit_closed.png"));
     map->img.exit_open = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/exit_open.png"));
     map->img.collectible = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/collectible.png"));
-    map->img.enemy = mlx_texture_to_image(map->mlx, mlx_load_png("./resources/textures/map/enemy.png"));
-    
     file_to_image_player(map);
 }
 

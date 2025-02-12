@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 18:32:40 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 21:20:35 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 14:50:42 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ int main(int ar, char **av)
         mlx_terminate(map.mlx);
     }
     else
-        ft_printf(2,"Error: no arguments provided\n");
+        ft_printf(2,"Wrong number of arguments\n");
     exit(EXIT_FAILURE);
 }

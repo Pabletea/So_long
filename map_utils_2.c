@@ -6,7 +6,7 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 10:20:20 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/12 14:55:23 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 15:49:58 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ void    check_param(t_map *map)
 	int	x;
 
 	y = 0;
+	x = 0;
 	while (y < map->y)
 	{
 		while (x < map->x)

@@ -6,22 +6,20 @@
 /*   By: pabalons <pabalons@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 10:32:11 by pabalons          #+#    #+#             */
-/*   Updated: 2025/02/11 21:16:00 by pabalons         ###   ########.fr       */
+/*   Updated: 2025/02/12 17:37:18 by pabalons         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
 
-
-
-void free_array(char **arr, int i)
+void	free_array(char **arr, int i)
 {
-    while(i > 0)
-        free(arr[--i]);
-    free(arr);
+	while (i > 0)
+		free(arr[--i]);
+	free(arr);
 }
 
-void free_exit_map(t_map *map)
+void	free_exit_map(t_map *map)
 {
 	if (map->array)
 		free(map->array);
@@ -57,15 +55,17 @@ char	*ft_strjoin_freed(char *s1, char *s2)
 	return (str);
 }
 
-int close_game(t_map *map)
+int	close_game(t_map *map)
 {
-	mlx_terminate(map->mlx);
-	free_array(map->array,map->y);
+	free_images(map); // Free images first
+	mlx_terminate(map->mlx); // Then terminate MinilibX
+	free_array(map->array, map->y); // Free the array
 	exit(EXIT_SUCCESS);
-	return(0);
+	return (0);
 }
 
-void print_moves(t_map *map)
+
+void	print_moves(t_map *map)
 {
 	char *move;
 

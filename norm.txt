@@ -1,0 +1,2298 @@
+hooks.c: Error!
+Error: CONSECUTIVE_NEWLINES (line:  15, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  16, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  18, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  18, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  18, col:  83):	line too long
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  22, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  24, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  24, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  24, col:  10):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line:  25, col:   1):	Space on empty line
+Error: TOO_FEW_TAB          (line:  26, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  26, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  27, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  27, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  28, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  28, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line:  29, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  29, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  30, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  30, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  31, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  31, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  32, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  32, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  33, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  33, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  34, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  34, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  35, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  35, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  36, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  36, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  37, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  37, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  38, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  38, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  39, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  39, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  40, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  40, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  41, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  41, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  42, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  42, col:   5):	Space on empty line
+Error: EMPTY_LINE_EOF       (line:  44, col:   1):	Empty line at end of file
+map_errors.c: Error!
+Error: CONSECUTIVE_NEWLINES (line:  13, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  16, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  18, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  18, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  18, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  19, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  20, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  20, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  21, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  21, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  22, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  22, col:   5):	Found space when expecting tab
+Error: CONSECUTIVE_SPC      (line:  22, col:  24):	Two or more consecutives spaces
+Error: SPC_BEFORE_NL        (line:  22, col:  24):	Space before newline
+Error: SPACE_BEFORE_FUNC    (line:  25, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  27, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  27, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  27, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  28, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  28, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  28, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  29, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  29, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  30, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  30, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  31, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  31, col:   5):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  34, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  36, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  36, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  36, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  37, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  37, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  37, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  38, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  38, col:   5):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  41, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  43, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  43, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  43, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  44, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  44, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  44, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  45, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  45, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  46, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  46, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  47, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  47, col:   5):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  50, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  52, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  52, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  52, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  53, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  53, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  53, col:  16):	missing space after operator
+Error: TOO_FEW_TAB          (line:  54, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  54, col:   5):	Found space when expecting tab
+map_utils.c: Error!
+Error: CONSECUTIVE_NEWLINES (line:  13, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  16, col:   5):	space before function name
+Error: NEWLINE_PRECEDES_FUNC (line:  28, col:   1):	Functions must be separated by a newline
+Error: SPACE_BEFORE_FUNC    (line:  28, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  30, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  30, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  30, col:   8):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  31, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  31, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  31, col:   8):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line:  32, col:   1):	Space on empty line
+Error: SPACE_BEFORE_FUNC    (line:  56, col:   5):	space before function name
+Error: SPACE_BEFORE_FUNC    (line:  73, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  75, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  75, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  76, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  76, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line:  77, col:   1):	Empty line in function
+Error: TOO_FEW_TAB          (line:  78, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  78, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  79, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  79, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  80, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  80, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  81, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  81, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  82, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  82, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  82, col:  25):	missing space after operator
+Error: EMPTY_LINE_FUNCTION  (line:  83, col:   1):	Empty line in function
+Error: SPACE_BEFORE_FUNC    (line:  86, col:   5):	space before function name
+Error: CONSECUTIVE_NEWLINES (line: 105, col:   1):	Consecutive newlines
+Error: EMPTY_LINE_EOF       (line: 105, col:   1):	Empty line at end of file
+map_utils_2.c: Error!
+Error: CONSECUTIVE_SPC      (line:  15, col:   5):	Two or more consecutives spaces
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   8):	space before function name
+Error: EXP_NEWLINE          (line:  36, col:  73):	Expected newline after control structure
+Error: TOO_MANY_LINES       (line:  46, col:   1):	Function has more than 25 lines
+Error: SPACE_BEFORE_FUNC    (line:  48, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  50, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  50, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  51, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  51, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  52, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  52, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  56, col:  20):	missing space after operator
+Error: TOO_FEW_TAB          (line:  57, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  57, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  57, col:  20):	missing space after operator
+Error: SPACE_BEFORE_FUNC    (line:  64, col:   5):	space before function name
+Error: BRACE_SHOULD_EOL     (line:  91, col:   1):	Expected newline after brace
+player_utils.c: Error!
+Error: CONSECUTIVE_SPC      (line:  15, col:   5):	Two or more consecutives spaces
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   8):	space before function name
+Error: TOO_FEW_TAB          (line:  17, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  17, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  18, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  18, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_AFTER_KW       (line:  19, col:   5):	Missing space after keyword
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: SPC_BFR_PAR          (line:  19, col:  10):	Missing space before parenthesis (brace/bracket)
+Error: SPACE_BEFORE_FUNC    (line:  34, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  36, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  36, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  36, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  38, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  38, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  39, col:   1):	Missing tabs for indent level
+Error: SPACE_AFTER_KW       (line:  39, col:   5):	Missing space after keyword
+Error: SPACE_REPLACE_TAB    (line:  39, col:   5):	Found space when expecting tab
+Error: SPC_BFR_PAR          (line:  39, col:   7):	Missing space before parenthesis (brace/bracket)
+Error: TOO_FEW_TAB          (line:  40, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  40, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line:  41, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  41, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  42, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  42, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  43, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  43, col:   5):	Space on empty line
+resource_manager.c: Error!
+Error: CONSECUTIVE_NEWLINES (line:  13, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  16, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  18, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  18, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  18, col:   8):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  18, col:  11):	Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line:  19, col:   1):	Variable declarations must be followed by a newline
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  20, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  20, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line:  21, col:   1):	Missing tabs for indent level
+Error: WRONG_SCOPE_VAR      (line:  21, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  21, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  21, col:  12):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  21, col:  15):	Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line:  22, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  22, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  23, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  23, col:   9):	Space on empty line
+Error: TOO_FEW_TAB          (line:  24, col:   1):	Missing tabs for indent level
+Error: WRONG_SCOPE_VAR      (line:  24, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  24, col:  13):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  24, col:  24):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  24, col:  30):	Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line:  25, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  25, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  26, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  26, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  27, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  27, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  28, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  28, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  29, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  29, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  30, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  30, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  31, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  31, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  32, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  32, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  33, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  33, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  34, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  34, col:  17):	Found space when expecting tab
+Error: CONSECUTIVE_SPC      (line:  34, col:  45):	Two or more consecutives spaces
+Error: SPC_BEFORE_NL        (line:  34, col:  45):	Space before newline
+Error: TOO_FEW_TAB          (line:  35, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  35, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  36, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  36, col:  17):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  37, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  37, col:  13):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  38, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  38, col:   9):	Space on empty line
+Error: TOO_FEW_TAB          (line:  39, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  39, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  40, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  40, col:   5):	Space on empty line
+Error: CONSECUTIVE_NEWLINES (line:  43, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  44, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  46, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  46, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  46, col: 119):	line too long
+Error: TOO_FEW_TAB          (line:  47, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  47, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  47, col: 121):	line too long
+Error: TOO_FEW_TAB          (line:  48, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  48, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  48, col: 115):	line too long
+Error: TOO_FEW_TAB          (line:  49, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  49, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  49, col: 119):	line too long
+Error: TOO_FEW_TAB          (line:  50, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  50, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  50, col: 119):	line too long
+Error: TOO_FEW_TAB          (line:  51, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  51, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  51, col: 121):	line too long
+Error: TOO_FEW_TAB          (line:  52, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  52, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  52, col: 115):	line too long
+Error: TOO_FEW_TAB          (line:  53, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  53, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  53, col: 119):	line too long
+Error: TOO_FEW_TAB          (line:  54, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  54, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  54, col: 131):	line too long
+Error: SPACE_BEFORE_FUNC    (line:  57, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  59, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  59, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  59, col: 102):	line too long
+Error: TOO_FEW_TAB          (line:  60, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  60, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  60, col: 100):	line too long
+Error: TOO_FEW_TAB          (line:  61, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  61, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  61, col: 107):	line too long
+Error: TOO_FEW_TAB          (line:  62, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  62, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  62, col: 110):	line too long
+Error: TOO_FEW_TAB          (line:  63, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  63, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  63, col: 114):	line too long
+Error: TOO_FEW_TAB          (line:  64, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  64, col:   5):	Found space when expecting tab
+Error: CONSECUTIVE_NEWLINES (line:  67, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  68, col:   1):	Consecutive newlines
+Error: EMPTY_LINE_EOF       (line:  68, col:   1):	Empty line at end of file
+so_long.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:   4):	space before function name
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  19, col:  10):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  21, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  21, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  22, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  22, col:   5):	Space on empty line
+Error: EMPTY_LINE_FUNCTION  (line:  23, col:   1):	Empty line in function
+Error: TOO_FEW_TAB          (line:  24, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  24, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  25, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  25, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  26, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  26, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  27, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  27, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  27, col:  40):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  27, col:  56):	missing space after operator
+Error: TOO_FEW_TAB          (line:  28, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  28, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  28, col:  36):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  28, col:  44):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  28, col:  46):	missing space after operator
+Error: TOO_FEW_TAB          (line:  29, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  29, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  30, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  30, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  31, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  31, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  31, col:  44):	missing space after operator
+Error: TOO_FEW_TAB          (line:  32, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  32, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  33, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  33, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  34, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  34, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line:  35, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line:  35, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line:  36, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  36, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_OPERATOR   (line:  36, col:  20):	missing space after operator
+Error: TOO_FEW_TAB          (line:  37, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  37, col:   5):	Found space when expecting tab
+Error: BRACE_SHOULD_EOL     (line:  38, col:   1):	Expected newline after brace
+utils_2.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  17, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  17, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  18, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  18, col:   9):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  18, col:  84):	line too long
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  20, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  20, col:   9):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  20, col:  86):	line too long
+Error: TOO_FEW_TAB          (line:  21, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  21, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  22, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  22, col:   9):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  22, col:  86):	line too long
+Error: TOO_FEW_TAB          (line:  23, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  23, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  24, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  24, col:   9):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  24, col:  87):	line too long
+Error: BRACE_SHOULD_EOL     (line:  25, col:   1):	Expected newline after brace
+so_long.h: Error!
+Error: TOO_MANY_WS          (line:  14, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  15, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  16, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  17, col:   1):	Extra whitespaces for indent level
+Error: TAB_REPLACE_SPACE    (line:  17, col:   2):	Found tab when expecting space
+Error: TOO_MANY_WS          (line:  18, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  19, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  20, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  21, col:   1):	Extra whitespaces for indent level
+Error: TAB_REPLACE_SPACE    (line:  21, col:   2):	Found tab when expecting space
+Error: TOO_MANY_WS          (line:  22, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  23, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  24, col:   1):	Extra whitespaces for indent level
+Error: TOO_MANY_WS          (line:  25, col:   1):	Extra whitespaces for indent level
+Error: TAB_REPLACE_SPACE    (line:  25, col:   2):	Found tab when expecting space
+Error: TOO_MANY_WS          (line:  26, col:   1):	Extra whitespaces for indent level
+Error: TAB_REPLACE_SPACE    (line:  26, col:   2):	Found tab when expecting space
+Error: TOO_MANY_WS          (line:  27, col:   1):	Extra whitespaces for indent level
+Error: TAB_REPLACE_SPACE    (line:  27, col:   2):	Found tab when expecting space
+Error: TOO_MANY_WS          (line:  28, col:   1):	Extra whitespaces for indent level
+Error: TAB_REPLACE_SPACE    (line:  28, col:   2):	Found tab when expecting space
+Error: TOO_MANY_WS          (line:  29, col:   1):	Extra whitespaces for indent level
+Error: TAB_REPLACE_SPACE    (line:  29, col:   2):	Found tab when expecting space
+Error: NO_TAB_BF_TYPEDEF    (line:  48, col:   2):	Missing whitespace before typedef name
+Error: SPACE_REPLACE_TAB    (line:  54, col:   8):	Found space when expecting tab
+Error: NO_TAB_BF_TYPEDEF    (line:  56, col:   2):	Missing whitespace before typedef name
+Error: TOO_FEW_TAB          (line:  60, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  60, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  60, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  61, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  61, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  61, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  62, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  62, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  62, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  62, col:  13):	Misaligned variable declaration
+Error: TOO_FEW_TAB          (line:  63, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  63, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  63, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  63, col:  13):	Misaligned variable declaration
+Error: TOO_FEW_TAB          (line:  64, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  64, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  64, col:  11):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  64, col:  12):	Misaligned variable declaration
+Error: CONSECUTIVE_SPC      (line:  66, col:   2):	Two or more consecutives spaces
+Error: SPACE_REPLACE_TAB    (line:  66, col:   8):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line:  66, col:   9):	User defined typedef must start with t_
+Error: NO_TAB_BF_TYPEDEF    (line:  92, col:   2):	Missing whitespace before typedef name
+Error: SPACE_REPLACE_TAB    (line:  94, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  95, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  96, col:   5):	Found space when expecting tab
+Error: NO_ARGS_VOID         (line:  96, col:  17):	Empty function argument requires void
+Error: SPACE_REPLACE_TAB    (line:  97, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  98, col:   5):	Found space when expecting tab
+Error: CONSECUTIVE_SPC      (line:  99, col:   5):	Two or more consecutives spaces
+Error: SPACE_REPLACE_TAB    (line:  99, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 100, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 101, col:   5):	Found space when expecting tab
+Error: CONSECUTIVE_SPC      (line: 102, col:   5):	Two or more consecutives spaces
+Error: SPACE_REPLACE_TAB    (line: 102, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 104, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 105, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 106, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 107, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 108, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 109, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 111, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 113, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 114, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 119, col:   4):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 120, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 121, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 122, col:   5):	Found space when expecting tab
+utils.c: Error!
+Error: CONSECUTIVE_NEWLINES (line:  15, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  16, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  17, col:   5):	space before function name
+Error: TOO_FEW_TAB          (line:  19, col:   1):	Missing tabs for indent level
+Error: SPACE_AFTER_KW       (line:  19, col:   5):	Missing space after keyword
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: SPC_BFR_PAR          (line:  19, col:  10):	Missing space before parenthesis (brace/bracket)
+Error: TOO_FEW_TAB          (line:  20, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  20, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line:  21, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  21, col:   5):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  24, col:   5):	space before function name
+Error: SPACE_BEFORE_FUNC    (line:  60, col:   4):	space before function name
+Error: SPC_AFTER_OPERATOR   (line:  63, col:  26):	missing space after operator
+Error: SPACE_AFTER_KW       (line:  65, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  65, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: SPACE_BEFORE_FUNC    (line:  68, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  70, col:   9):	Found space when expecting tab
+Error: BRACE_SHOULD_EOL     (line:  79, col:   1):	Expected newline after brace
+player_movement.c: Error!
+Error: DECL_ASSIGN_LINE     (line:  17, col:  11):	Declaration and assignation on a single line
+Error: DECL_ASSIGN_LINE     (line:  18, col:  11):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line:  26, col:  32):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  26, col:  32):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  28, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:   9):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  32, col:  13):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  33, col:  82):	line too long
+Error: SPC_BEFORE_NL        (line:  36, col:  13):	Space before newline
+Error: LINE_TOO_LONG        (line:  42, col:  17):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  42, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  42, col:  83):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  45, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  46, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  47, col:  87):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  50, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  51, col:   9):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  54, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  56, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  57, col:   9):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  58, col:  84):	line too long
+Error: TOO_MANY_LINES       (line:  62, col:   1):	Function has more than 25 lines
+Error: CONSECUTIVE_NEWLINES (line:  64, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  65, col:   1):	Consecutive newlines
+Error: DECL_ASSIGN_LINE     (line:  68, col:  11):	Declaration and assignation on a single line
+Error: DECL_ASSIGN_LINE     (line:  69, col:  11):	Declaration and assignation on a single line
+Error: LINE_TOO_LONG        (line:  81, col:  82):	line too long
+Error: SPC_BEFORE_NL        (line:  84, col:  13):	Space before newline
+Error: LINE_TOO_LONG        (line:  92, col:  87):	line too long
+Error: LINE_TOO_LONG        (line:  98, col:  82):	line too long
+Error: TOO_MANY_LINES       (line: 102, col:   1):	Function has more than 25 lines
+Error: CONSECUTIVE_NEWLINES (line: 104, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line: 105, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line: 106, col:   1):	Consecutive newlines
+Error: DECL_ASSIGN_LINE     (line: 109, col:  11):	Declaration and assignation on a single line
+Error: DECL_ASSIGN_LINE     (line: 110, col:  11):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line: 118, col:  32):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 118, col:  32):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 120, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 121, col:   9):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 124, col:  13):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 125, col:  82):	line too long
+Error: SPC_BEFORE_NL        (line: 128, col:  13):	Space before newline
+Error: LINE_TOO_LONG        (line: 134, col:  17):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 134, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 134, col:  83):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 137, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 138, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 139, col:  87):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 142, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 143, col:   9):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 147, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 148, col:   9):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 149, col:  86):	line too long
+Error: TOO_MANY_LINES       (line: 153, col:   1):	Function has more than 25 lines
+Error: CONSECUTIVE_NEWLINES (line: 155, col:   1):	Consecutive newlines
+Error: DECL_ASSIGN_LINE     (line: 158, col:  11):	Declaration and assignation on a single line
+Error: DECL_ASSIGN_LINE     (line: 159, col:  11):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line: 167, col:  32):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 167, col:  32):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 169, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 170, col:   9):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 173, col:  13):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 174, col:  82):	line too long
+Error: SPC_BEFORE_NL        (line: 177, col:  13):	Space before newline
+Error: LINE_TOO_LONG        (line: 183, col:  17):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 183, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 183, col:  83):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 186, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 187, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 188, col:  87):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 191, col:   1):	Empty line in function
+Error: LINE_TOO_LONG        (line: 195, col:  87):	line too long
+Error: TOO_MANY_LINES       (line: 199, col:   1):	Function has more than 25 lines
+Error: SPACE_BEFORE_FUNC    (line: 201, col:   5):	space before function name
+Error: SPACE_REPLACE_TAB    (line: 203, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 204, col:   8):	Found space when expecting tab
+Error: NL_AFTER_VAR_DECL    (line: 205, col:   1):	Variable declarations must be followed by a newline
+Error: SPACE_EMPTY_LINE     (line: 207, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 207, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 208, col:   1):	Missing tabs for indent level
+Error: TOO_FEW_TAB          (line: 208, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 208, col:   5):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 208, col:  19):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 208, col:  19):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 209, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 210, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 210, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 211, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 211, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 212, col:   1):	Missing tabs for indent level
+Error: TOO_FEW_TAB          (line: 212, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 212, col:   5):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 212, col:  29):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 212, col:  29):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 213, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 214, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 214, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 215, col:   1):	Missing tabs for indent level
+Error: TOO_FEW_TAB          (line: 215, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 215, col:   5):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 215, col:  10):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 215, col:  10):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 216, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 216, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line: 217, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 218, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 218, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 219, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 219, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line: 220, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 221, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 221, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 222, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 222, col:   5):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line: 222, col:  84):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 223, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 224, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 224, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 225, col:   1):	Missing tabs for indent level
+Error: TOO_FEW_TAB          (line: 225, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 225, col:   5):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 225, col:  29):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 225, col:  29):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 226, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 227, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 227, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 228, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 228, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line: 229, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 230, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 230, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 231, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 231, col:   5):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 231, col:  35):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 231, col:  35):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 232, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 232, col:   5):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line: 232, col:  22):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 232, col:  22):	Comment is invalid in this scope
+Error: BRACE_SHOULD_EOL     (line: 233, col:   1):	Expected newline after brace
+Error: TOO_MANY_LINES       (line: 233, col:   1):	Function has more than 25 lines
+MLX42/include/KHR/khrplatform.h: Error!
+	[31mUnexpected tokens after the constant expression[0m
+MLX42/include/MLX42/MLX42.h: Error!
+Error: NL_AFTER_PREPROC     (line:  36, col:   1):	Preprocessor statement must be followed by a newline
+Error: TAB_INSTEAD_SPC      (line:  56, col:  14):	Found tab when expecting space
+Error: SPC_BFR_OPERATOR     (line:  56, col:  17):	missing space before operator
+Error: SPC_BFR_OPERATOR     (line:  57, col:  17):	missing space before operator
+Error: USER_DEFINED_TYPEDEF (line:  80, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line:  93, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line: 106, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line: 125, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line: 252, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 268, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 268, col:  12):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 269, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line: 285, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line: 307, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line: 326, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 344, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 344, col:  12):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 345, col:  19):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 345, col:  19):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 348, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 348, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 349, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 362, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 362, col:   9):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 363, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 363, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 367, col:   5):	User defined typedef must start with t_
+Error: LINE_TOO_LONG        (line: 379, col:  25):	line too long
+Error: LINE_TOO_LONG        (line: 379, col:  98):	line too long
+Error: USER_DEFINED_TYPEDEF (line: 389, col:   5):	User defined typedef must start with t_
+Notice: GLOBAL_VAR_DETECTED  (line: 392, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line: 392, col:  19):	Found space when expecting tab
+Error: GLOBAL_VAR_NAMING    (line: 392, col:  20):	Global variable must start with g_
+Error: LINE_TOO_LONG        (line: 396, col:   1):	line too long
+Error: LINE_TOO_LONG        (line: 396, col: 100):	line too long
+Error: LINE_TOO_LONG        (line: 399, col:  29):	line too long
+Error: LINE_TOO_LONG        (line: 399, col: 113):	line too long
+Error: LINE_TOO_LONG        (line: 400, col:  29):	line too long
+Error: LINE_TOO_LONG        (line: 400, col: 131):	line too long
+Error: LINE_TOO_LONG        (line: 401, col:  29):	line too long
+Error: LINE_TOO_LONG        (line: 401, col: 134):	line too long
+Error: LINE_TOO_LONG        (line: 402, col:  29):	line too long
+Error: LINE_TOO_LONG        (line: 402, col:  93):	line too long
+Error: LINE_TOO_LONG        (line: 403, col:  29):	line too long
+Error: LINE_TOO_LONG        (line: 403, col: 139):	line too long
+Error: USER_DEFINED_TYPEDEF (line: 405, col:   5):	User defined typedef must start with t_
+Error: MISALIGNED_VAR_DECL  (line: 414, col:   1):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 414, col:  13):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line: 414, col:  14):	User defined typedef must start with t_
+Error: MISALIGNED_VAR_DECL  (line: 424, col:   1):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 424, col:  13):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line: 424, col:  14):	User defined typedef must start with t_
+Error: LINE_TOO_LONG        (line: 424, col:  82):	line too long
+Error: MISALIGNED_VAR_DECL  (line: 433, col:   1):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 433, col:  13):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line: 433, col:  14):	User defined typedef must start with t_
+Error: MISALIGNED_VAR_DECL  (line: 441, col:   1):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 441, col:  13):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line: 441, col:  14):	User defined typedef must start with t_
+Error: MISALIGNED_VAR_DECL  (line: 453, col:   1):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 453, col:  13):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line: 453, col:  14):	User defined typedef must start with t_
+Error: MISALIGNED_VAR_DECL  (line: 462, col:   1):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 462, col:  13):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line: 462, col:  14):	User defined typedef must start with t_
+Error: LINE_TOO_LONG        (line: 468, col:   1):	line too long
+Error: LINE_TOO_LONG        (line: 469, col:   1):	line too long
+Error: MISALIGNED_VAR_DECL  (line: 471, col:   1):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 471, col:  13):	Found space when expecting tab
+Error: USER_DEFINED_TYPEDEF (line: 471, col:  14):	User defined typedef must start with t_
+Error: SPC_AFTER_POINTER    (line: 481, col:  11):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 481, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 494, col:   6):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 494, col:   7):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 494, col:  58):	space after pointer
+Error: LINE_TOO_LONG        (line: 501, col:   1):	line too long
+Error: SPACE_REPLACE_TAB    (line: 503, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 511, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 511, col:  28):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 520, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 520, col:  20):	space after pointer
+Error: LINE_TOO_LONG        (line: 525, col:   1):	line too long
+Error: SPACE_REPLACE_TAB    (line: 532, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 532, col:  24):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 532, col:  44):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 541, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 541, col:  25):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 548, col:   7):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 561, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 561, col:  21):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 570, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 570, col:  49):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 570, col:  65):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 582, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 582, col:  30):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 591, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 591, col:  30):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 591, col:  44):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 591, col:  59):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 601, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 601, col:  31):	space after pointer
+Error: LINE_TOO_LONG        (line: 608, col:   1):	line too long
+Error: SPACE_REPLACE_TAB    (line: 616, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 616, col:  32):	space after pointer
+Error: LINE_TOO_LONG        (line: 616, col:  82):	line too long
+Error: TOO_MANY_ARGS        (line: 616, col:  98):	Function has more than 4 arguments
+Error: SPACE_REPLACE_TAB    (line: 624, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 624, col:  32):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 624, col:  49):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 635, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 635, col:  27):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 644, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 644, col:  29):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 657, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 657, col:  29):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 657, col:  43):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 657, col:  55):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 665, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 665, col:  29):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 673, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 673, col:  31):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 681, col:  17):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 681, col:  18):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 692, col:  17):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 692, col:  18):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 692, col:  50):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 699, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 699, col:  41):	space after pointer
+Error: LINE_TOO_LONG        (line: 705, col:   1):	line too long
+Error: SPACE_REPLACE_TAB    (line: 707, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 707, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 707, col:  49):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 719, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 719, col:  27):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 719, col:  59):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 729, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 729, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 729, col:  57):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 739, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 739, col:  27):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 739, col:  59):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 749, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 749, col:  24):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 749, col:  53):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 759, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 759, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 759, col:  57):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 769, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 769, col:  27):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 769, col:  59):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 780, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 780, col:  25):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 780, col:  54):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 790, col:  14):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 790, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 790, col:  39):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 798, col:   6):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 798, col:   7):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 798, col:  33):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 805, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 805, col:  38):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 815, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 815, col:  28):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 824, col:  12):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 824, col:  13):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 824, col:  40):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 824, col:  60):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 839, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 839, col:  31):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 849, col:  12):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 849, col:  13):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 849, col:  33):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 868, col:   8):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 868, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 868, col:  52):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 881, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 881, col:  28):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 881, col:  46):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 892, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 892, col:  34):	space after pointer
+Error: LINE_TOO_LONG        (line: 897, col:   1):	line too long
+Error: LINE_TOO_LONG        (line: 898, col:   1):	line too long
+Error: SPACE_REPLACE_TAB    (line: 904, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 904, col:  43):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 917, col:  12):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 917, col:  13):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 917, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 917, col:  51):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 924, col:  20):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 924, col:  21):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 935, col:   8):	Found space when expecting tab
+Error: PREPROC_BAD_INDENT   (line: 937, col:   1):	Bad preprocessor indentation
+Error: NL_AFTER_PREPROC     (line: 938, col:   1):	Preprocessor statement must be followed by a newline
+Error: PREPROC_BAD_INDENT   (line: 939, col:   1):	Bad preprocessor indentation
+Error: PREPROC_BAD_INDENT   (line: 940, col:   1):	Bad preprocessor indentation
+MLX42/include/MLX42/MLX42_Int.h: Error!
+Error: PREPROC_CONSTANT     (line:  42, col:  14):	Preprocessor statement must only contain constant defines
+Error: MACRO_FUNC_FORBIDDEN (line:  45, col:  20):	Macro functions are forbidden
+Error: PREPROC_CONSTANT     (line:  45, col:  38):	Preprocessor statement must only contain constant defines
+Error: MACRO_FUNC_FORBIDDEN (line:  46, col:  21):	Macro functions are forbidden
+Error: PREPROC_CONSTANT     (line:  46, col:  37):	Preprocessor statement must only contain constant defines
+Error: LINE_TOO_LONG        (line:  46, col: 100):	line too long
+Notice: GLOBAL_VAR_DETECTED  (line:  62, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  62, col:  18):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  62, col:  18):	space after pointer
+Error: GLOBAL_VAR_NAMING    (line:  62, col:  20):	Global variable must start with g_
+Notice: GLOBAL_VAR_DETECTED  (line:  63, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  63, col:  18):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  63, col:  18):	space after pointer
+Error: GLOBAL_VAR_NAMING    (line:  63, col:  20):	Global variable must start with g_
+Notice: GLOBAL_VAR_DETECTED  (line:  66, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  66, col:  12):	Found space when expecting tab
+Error: GLOBAL_VAR_NAMING    (line:  66, col:  13):	Global variable must start with g_
+Error: MISALIGNED_VAR_DECL  (line:  66, col:  13):	Misaligned variable declaration
+Notice: GLOBAL_VAR_DETECTED  (line:  69, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  69, col:  15):	Found space when expecting tab
+Error: GLOBAL_VAR_NAMING    (line:  69, col:  16):	Global variable must start with g_
+Error: MISALIGNED_VAR_DECL  (line:  69, col:  16):	Misaligned variable declaration
+Error: USER_DEFINED_TYPEDEF (line:  82, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line:  87, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  87, col:   9):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  88, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  88, col:  20):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  89, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  89, col:  20):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line:  90, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 116, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 116, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 118, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 122, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 122, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 124, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 128, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 128, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 130, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 134, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 134, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 136, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 140, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 140, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 142, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 146, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 146, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 148, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 152, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 152, col:   9):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 154, col:   5):	User defined typedef must start with t_
+Error: FORBIDDEN_CHAR_NAME  (line: 178, col:  21):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: FORBIDDEN_CHAR_NAME  (line: 179, col:  21):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_REPLACE_TAB    (line: 181, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 181, col:  15):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 182, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 182, col:  15):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 183, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 183, col:  15):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 196, col:   5):	User defined typedef must start with t_
+Error: SPACE_REPLACE_TAB    (line: 201, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 201, col:  16):	space after pointer
+Error: USER_DEFINED_TYPEDEF (line: 203, col:   5):	User defined typedef must start with t_
+Error: USER_DEFINED_TYPEDEF (line: 210, col:   5):	User defined typedef must start with t_
+Error: SPC_AFTER_POINTER    (line: 220, col:  11):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 220, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 220, col:  28):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 221, col:  11):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 221, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 221, col:  35):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 222, col:   8):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 222, col:  31):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 223, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 223, col:  30):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 223, col:  31):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 224, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 224, col:  33):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 224, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 224, col:  50):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 225, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 225, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 225, col:  35):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 225, col:  51):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 226, col:  11):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 226, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 226, col:  38):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 226, col:  39):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 226, col:  49):	space after pointer
+Error: LINE_TOO_LONG        (line: 226, col:  82):	line too long
+Error: SPACE_REPLACE_TAB    (line: 227, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 227, col:  38):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 227, col:  39):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 231, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 231, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 231, col:  44):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 232, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 232, col:  25):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 232, col:  43):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 233, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 233, col:  28):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 237, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 238, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 242, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 242, col:  35):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 243, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 243, col:  33):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 243, col:  51):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 243, col:  72):	space after pointer
+Error: LINE_TOO_LONG        (line: 243, col:  82):	line too long
+Error: SPACE_REPLACE_TAB    (line: 244, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 244, col:  31):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 248, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 248, col:  23):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 248, col:  24):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 248, col:  36):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 248, col:  52):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 249, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 250, col:   8):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 250, col:  33):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 251, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 251, col:  27):	space after pointer
+MLX42/include/glad/glad.h: Error!
+	[31mUnexpected tokens after the constant expression[0m
+MLX42/include/lodepng/lodepng.h: Error!
+	[31mUnexpected tokens after the constant expression[0m
+MLX42/lib/glad/glad.c: Error!
+	[31mUnexpected tokens after the constant expression[0m
+MLX42/lib/png/lodepng.c: Error!
+	[31mUnexpected tokens after the constant expression[0m
+MLX42/src/mlx_cursor.c: Error!
+Error: SPC_AFTER_POINTER    (line:  17, col:  17):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  18):	space before function name
+Error: LINE_TOO_LONG        (line:  19, col: 101):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  20, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  21, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  21, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  21, col:  15):	space after pointer
+Error: ASSIGN_IN_CONTROL    (line:  22, col:  17):	Assignment in control structure
+Error: SPC_AFTER_POINTER    (line:  27, col:  17):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  27, col:  18):	space before function name
+Error: SPC_AFTER_POINTER    (line:  27, col:  50):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  30, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  31, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  31, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  31, col:  15):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  32, col:  14):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  32, col:  15):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  32, col:  21):	Declaration and assignation on a single line
+Error: NO_SPC_AFR_PAR       (line:  32, col:  33):	Extra space after parenthesis (brace/bracket)
+Error: DECL_ASSIGN_LINE     (line:  33, col:  16):	Declaration and assignation on a single line
+Error: DECL_ASSIGN_LINE     (line:  34, col:  17):	Declaration and assignation on a single line
+Error: DECL_ASSIGN_LINE     (line:  35, col:  17):	Declaration and assignation on a single line
+Error: ASSIGN_IN_CONTROL    (line:  38, col:  17):	Assignment in control structure
+Error: SPACE_BEFORE_FUNC    (line:  43, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  43, col:  41):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  46, col:   1):	Empty line in function
+Error: SPACE_BEFORE_FUNC    (line:  50, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  50, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  50, col:  49):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  54, col:   1):	Empty line in function
+Error: SPACE_BEFORE_FUNC    (line:  58, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  58, col:  31):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  61, col:   1):	Empty line in function
+MLX42/src/mlx_exit.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  32):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  19, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  19, col:  16):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  19, col:  22):	Declaration and assignation on a single line
+Error: SPACE_BEFORE_FUNC    (line:  26, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  26, col:  28):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  36, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  36, col:  25):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  39, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  40, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  40, col:  21):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line:  46, col:  19):	Missing space after keyword
+Error: SPACE_AFTER_KW       (line:  47, col:  19):	Missing space after keyword
+Error: SPACE_AFTER_KW       (line:  48, col:  19):	Missing space after keyword
+MLX42/src/mlx_images.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  31):	space after pointer
+Error: SPACE_AFTER_KW       (line:  20, col:   9):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line:  21, col:   1):	Empty line in function
+Error: LINE_TOO_LONG        (line:  23, col:  90):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  25, col:   1):	Empty line in function
+Error: SPACE_BEFORE_FUNC    (line:  30, col:  14):	space before function name
+Error: SPC_AFTER_POINTER    (line:  30, col:  41):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  30, col:  59):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  32, col:  16):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line:  34, col:   5):	Comment is invalid in this scope
+Error: FORBIDDEN_CS         (line:  35, col:   5):	Forbidden control structure
+Error: EMPTY_LINE_FUNCTION  (line:  39, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  43, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  49, col:   1):	Empty line in function
+Error: LINE_TOO_LONG        (line:  50, col:   5):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  50, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  50, col: 101):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  52, col:   1):	Empty line in function
+Error: SPACE_BEFORE_FUNC    (line:  63, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  63, col:  33):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  63, col:  51):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  63, col:  72):	space after pointer
+Error: LINE_TOO_LONG        (line:  63, col:  82):	line too long
+Error: SPACE_REPLACE_TAB    (line:  65, col:  10):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  65, col:  13):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  66, col:  10):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  66, col:  13):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  67, col:  10):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  67, col:  13):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  68, col:  10):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  68, col:  13):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  69, col:  10):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  69, col:  13):	Declaration and assignation on a single line
+Error: TOO_MANY_VARS_FUNC   (line:  70, col:   1):	Too many variables declarations in a function
+Error: SPACE_REPLACE_TAB    (line:  70, col:  11):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  70, col:  12):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  70, col:  16):	Declaration and assignation on a single line
+Error: TOO_MANY_VARS_FUNC   (line:  72, col:   1):	Too many variables declarations in a function
+Error: VAR_DECL_START_FUNC  (line:  72, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  72, col:  13):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  72, col:  14):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  72, col:  26):	Declaration and assignation on a single line
+Error: TOO_MANY_TAB         (line:  73, col:   1):	Extra tabs for indent level
+Error: TOO_MANY_TAB         (line:  74, col:   1):	Extra tabs for indent level
+Error: TOO_MANY_TAB         (line:  75, col:   1):	Extra tabs for indent level
+Error: TOO_MANY_TAB         (line:  76, col:   1):	Extra tabs for indent level
+Error: TOO_MANY_TAB         (line:  77, col:   1):	Extra tabs for indent level
+Error: TOO_MANY_TAB         (line:  78, col:   1):	Extra tabs for indent level
+Error: EMPTY_LINE_FUNCTION  (line:  82, col:   1):	Empty line in function
+Error: SPC_AFTER_POINTER    (line:  87, col:  15):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  87, col:  16):	space before function name
+Error: SPC_AFTER_POINTER    (line:  87, col:  47):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  87, col:  58):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  89, col:  20):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  89, col:  27):	Found space when expecting tab
+Error: NL_AFTER_VAR_DECL    (line:  90, col:   1):	Variable declarations must be followed by a newline
+Error: RETURN_PARENTHESIS   (line:  97, col:  16):	Return value must be in parenthesis
+Error: LINE_TOO_LONG        (line:  97, col:  87):	line too long
+Error: RETURN_PARENTHESIS   (line: 100, col:  12):	Return value must be in parenthesis
+Error: SPACE_BEFORE_FUNC    (line: 105, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 105, col:  43):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 108, col:   1):	Empty line in function
+Error: SPACE_AFTER_KW       (line: 110, col:   9):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line: 112, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 113, col:   5):	Comment is invalid in this scope
+Error: TOO_MANY_FUNCS       (line: 121, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 121, col:   8):	space before function name
+Error: SPC_AFTER_POINTER    (line: 121, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 121, col:  52):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 125, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 126, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line: 128, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 128, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 129, col:  19):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 129, col:  19):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 129, col:  21):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 129, col:  31):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line: 130, col:  17):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 130, col:  17):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 130, col:  19):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 130, col:  25):	Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line: 131, col:   1):	Variable declarations must be followed by a newline
+Error: EMPTY_LINE_FUNCTION  (line: 137, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 138, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line: 140, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 140, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 140, col:  13):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 140, col:  19):	Declaration and assignation on a single line
+Error: DECL_ASSIGN_LINE     (line: 140, col:  39):	Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line: 144, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 145, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 146, col:   5):	Comment is invalid in this scope
+Error: SPACE_AFTER_KW       (line: 147, col:  33):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line: 149, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 150, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line: 152, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 152, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 152, col:  15):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 152, col:  17):	Misaligned variable declaration
+Error: ASSIGN_IN_CONTROL    (line: 153, col:  18):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line: 155, col:  29):	Missing space after keyword
+Error: TOO_MANY_LINES       (line: 159, col:   1):	Function has more than 25 lines
+Error: TOO_MANY_FUNCS       (line: 161, col:   1):	Too many functions in file
+Error: SPC_AFTER_POINTER    (line: 161, col:  12):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line: 161, col:  13):	space before function name
+Error: SPC_AFTER_POINTER    (line: 161, col:  33):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 164, col:   1):	Empty line in function
+Error: SPACE_AFTER_KW       (line: 166, col:  18):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line: 167, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line: 168, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 168, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 168, col:  20):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 169, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 169, col:  16):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 169, col:  18):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 169, col:  25):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line: 170, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 170, col:  20):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 170, col:  29):	Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line: 171, col:   1):	Variable declarations must be followed by a newline
+Error: SPACE_AFTER_KW       (line: 178, col:   8):	Missing space after keyword
+Error: SPACE_AFTER_KW       (line: 179, col:   8):	Missing space after keyword
+Error: ASSIGN_IN_CONTROL    (line: 180, col:  26):	Assignment in control structure
+Error: EMPTY_LINE_FUNCTION  (line: 185, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line: 186, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 186, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 186, col:  15):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 186, col:  17):	Misaligned variable declaration
+Error: ASSIGN_IN_CONTROL    (line: 187, col:  20):	Assignment in control structure
+Error: EMPTY_LINE_FUNCTION  (line: 192, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 193, col:   5):	Comment is invalid in this scope
+Error: SPACE_AFTER_KW       (line: 200, col:  23):	Missing space after keyword
+Error: TOO_MANY_LINES       (line: 202, col:   1):	Function has more than 25 lines
+Error: TOO_MANY_FUNCS       (line: 204, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 204, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 204, col:  28):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 204, col:  46):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 208, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line: 209, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 209, col:  14):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 209, col:  14):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 209, col:  23):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line: 211, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line: 212, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 212, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 212, col:  15):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 212, col:  17):	Misaligned variable declaration
+Error: ASSIGN_IN_CONTROL    (line: 213, col:  20):	Assignment in control structure
+Error: LINE_TOO_LONG        (line: 213, col:  82):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 215, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line: 216, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 216, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 216, col:  15):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 216, col:  17):	Misaligned variable declaration
+Error: ASSIGN_IN_CONTROL    (line: 217, col:  17):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line: 219, col:  32):	Missing space after keyword
+Error: LINE_TOO_LONG        (line: 220, col:  84):	line too long
+Error: TOO_MANY_FUNCS       (line: 224, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 224, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 224, col:  34):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 227, col:   1):	Empty line in function
+Error: WRONG_SCOPE_VAR      (line: 232, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 232, col:  17):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 232, col:  17):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 232, col:  26):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_VAR      (line: 233, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 233, col:  14):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 233, col:  15):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 233, col:  21):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_VAR      (line: 234, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 234, col:  14):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 234, col:  15):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 234, col:  21):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_VAR      (line: 236, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 236, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 236, col:  16):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 236, col:  18):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 236, col:  27):	Declaration and assignation on a single line
+Error: LINE_TOO_LONG        (line: 240, col:  94):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 241, col:   1):	Empty line in function
+Error: WRONG_SCOPE_VAR      (line: 242, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 242, col:  17):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 242, col:  17):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 242, col:  26):	Declaration and assignation on a single line
+Error: FORBIDDEN_CS         (line: 243, col:   9):	Forbidden control structure
+Error: FORBIDDEN_CS         (line: 244, col:  13):	Forbidden control structure
+Error: LINE_TOO_LONG        (line: 245, col:  83):	line too long
+Error: SPACE_AFTER_KW       (line: 246, col:  12):	Missing space after keyword
+Error: SPACE_AFTER_KW       (line: 247, col:  12):	Missing space after keyword
+MLX42/src/mlx_init.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  12):	space before function name
+Error: SPACE_BEFORE_FUNC    (line:  23, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  23, col:  37):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  25, col:  14):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  25, col:  14):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  25, col:  23):	Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  33, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  34, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  37, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  38, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  39, col:  86):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  41, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  42, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  43, col:  82):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  45, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  49, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  66, col:   1):	Empty line in function
+Error: TOO_MANY_LINES       (line:  68, col:   1):	Function has more than 25 lines
+Error: SPACE_BEFORE_FUNC    (line:  78, col:  16):	space before function name
+Error: SPC_AFTER_POINTER    (line:  78, col:  46):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  80, col:  11):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  81, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  81, col:  13):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line:  82, col:   9):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  82, col:  10):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  82, col:  23):	Declaration and assignation on a single line
+Error: ASSIGN_IN_CONTROL    (line:  84, col:  26):	Assignment in control structure
+Error: EMPTY_LINE_FUNCTION  (line:  86, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  87, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  87, col:  10):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  87, col:  11):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  87, col:  15):	Declaration and assignation on a single line
+Error: SPACE_BEFORE_FUNC    (line: 101, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line: 101, col:  34):	space after pointer
+Error: TOO_FEW_TAB          (line: 103, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 103, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 103, col:  13):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line: 103, col:  22):	Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line: 104, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 104, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 104, col:  13):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line: 104, col:  22):	Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line: 105, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 105, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 105, col:   9):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 105, col:  10):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 105, col:  23):	Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line: 106, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 106, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 106, col:  14):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 106, col:  14):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 106, col:  16):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 106, col:  23):	Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line: 108, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 108, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 109, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 109, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 110, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 110, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 111, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 111, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line: 112, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 113, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 113, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 114, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 114, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 115, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 115, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 116, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 116, col:   5):	Found space when expecting tab
+Error: ASSIGN_IN_CONTROL    (line: 116, col:  19):	Assignment in control structure
+Error: TOO_FEW_TAB          (line: 117, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 117, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 118, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 118, col:   5):	Found space when expecting tab
+Error: ASSIGN_IN_CONTROL    (line: 118, col:  19):	Assignment in control structure
+Error: TOO_FEW_TAB          (line: 119, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 119, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 119, col:  42):	Missing tabs for indent level
+Error: EMPTY_LINE_FUNCTION  (line: 119, col:  43):	Empty line in function
+Error: TOO_FEW_TAB          (line: 120, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 120, col:   5):	Found space when expecting tab
+Error: ASSIGN_IN_CONTROL    (line: 120, col:  33):	Assignment in control structure
+Error: TOO_FEW_TAB          (line: 121, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line: 121, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line: 122, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 122, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 123, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 123, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 124, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 124, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 125, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line: 125, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line: 126, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 126, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 127, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 127, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 128, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 128, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line: 129, col:   1):	Empty line in function
+Error: TOO_FEW_TAB          (line: 130, col:   1):	Missing tabs for indent level
+Error: VAR_DECL_START_FUNC  (line: 130, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 130, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 130, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 130, col:  13):	Misaligned variable declaration
+Error: TOO_FEW_TAB          (line: 131, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 131, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 132, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 132, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 133, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line: 133, col:   5):	Space on empty line
+Error: TOO_FEW_TAB          (line: 134, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 134, col:   9):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line: 134, col:  82):	line too long
+Error: TOO_FEW_TAB          (line: 135, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 135, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 136, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 136, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 137, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 137, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 138, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 138, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 139, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 139, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 140, col:   1):	Missing tabs for indent level
+Error: SPACE_EMPTY_LINE     (line: 140, col:   5):	Space on empty line
+Error: EMPTY_LINE_FUNCTION  (line: 141, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 142, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 142, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 143, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 143, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 144, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 144, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line: 145, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 146, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 146, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line: 147, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 147, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 148, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 148, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 149, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 149, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 150, col:   1):	Missing tabs for indent level
+Error: FORBIDDEN_CS         (line: 150, col:   5):	Forbidden control structure
+Error: SPACE_REPLACE_TAB    (line: 150, col:   5):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 151, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 151, col:   9):	Found space when expecting tab
+Error: TOO_FEW_TAB          (line: 152, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 152, col:   5):	Found space when expecting tab
+Error: TOO_MANY_LINES       (line: 153, col:   1):	Function has more than 25 lines
+Notice: GLOBAL_VAR_DETECTED  (line: 160, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line: 160, col:   8):	Found space when expecting tab
+Error: GLOBAL_VAR_NAMING    (line: 160, col:   9):	Global variable must start with g_
+Notice: GLOBAL_VAR_DETECTED  (line: 161, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line: 161, col:  12):	Found space when expecting tab
+Error: GLOBAL_VAR_NAMING    (line: 161, col:  13):	Global variable must start with g_
+Error: MISALIGNED_VAR_DECL  (line: 161, col:  13):	Misaligned variable declaration
+Notice: GLOBAL_VAR_DETECTED  (line: 162, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line: 162, col:   5):	Found space when expecting tab
+Error: GLOBAL_VAR_NAMING    (line: 162, col:   6):	Global variable must start with g_
+Error: MISALIGNED_VAR_DECL  (line: 162, col:   6):	Misaligned variable declaration
+Error: SPC_AFTER_POINTER    (line: 164, col:   6):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line: 164, col:   7):	space before function name
+Error: SPC_AFTER_POINTER    (line: 164, col:  58):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 169, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line: 170, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 170, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 171, col:  10):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 171, col:  10):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 171, col:  12):	Misaligned variable declaration
+Error: NL_AFTER_VAR_DECL    (line: 172, col:   1):	Variable declarations must be followed by a newline
+Error: ASSIGN_IN_CONTROL    (line: 172, col:  16):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line: 173, col:  18):	Missing space after keyword
+Error: ASSIGN_IN_CONTROL    (line: 174, col:  15):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line: 175, col:  18):	Missing space after keyword
+Error: ASSIGN_IN_CONTROL    (line: 176, col:  24):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line: 177, col:  29):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line: 178, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line: 179, col:   1):	Variable declaration not at start of function
+Error: SPC_AFTER_POINTER    (line: 179, col:  14):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 179, col:  21):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 179, col:  22):	Misaligned variable declaration
+Error: TOO_FEW_TAB          (line: 180, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 180, col:   5):	Found space when expecting tab
+Error: EMPTY_LINE_FUNCTION  (line: 185, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 186, col:   5):	Comment is invalid in this scope
+Error: PREPOC_ONLY_GLOBAL   (line: 188, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 189, col:   1):	Preprocessor statement must be followed by a newline
+Error: PREPOC_ONLY_GLOBAL   (line: 194, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 195, col:   1):	Preprocessor statement must be followed by a newline
+Error: PREPOC_ONLY_GLOBAL   (line: 200, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: PREPOC_ONLY_GLOBAL   (line: 201, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 202, col:   1):	Preprocessor statement must be followed by a newline
+Error: PREPOC_ONLY_GLOBAL   (line: 203, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 204, col:   1):	Preprocessor statement must be followed by a newline
+Error: TERNARY_FBIDDEN      (line: 204, col:  43):	Ternaries are forbidden
+Error: ASSIGN_IN_CONTROL    (line: 205, col:  23):	Assignment in control structure
+Error: LINE_TOO_LONG        (line: 205, col:  91):	line too long
+Error: TERNARY_FBIDDEN      (line: 205, col:  93):	Ternaries are forbidden
+Error: SPACE_AFTER_KW       (line: 206, col:  35):	Missing space after keyword
+Error: TOO_FEW_TAB          (line: 209, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 209, col:   5):	Found space when expecting tab
+Error: TOO_MANY_LINES       (line: 211, col:   1):	Function has more than 25 lines
+Error: TOO_MANY_FUNCS       (line: 213, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 213, col:   5):	space before function name
+Error: LINE_TOO_LONG        (line: 215, col:  84):	line too long
+MLX42/src/mlx_keys.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  40):	space after pointer
+Error: LINE_TOO_LONG        (line:  17, col:  88):	line too long
+Error: TOO_MANY_ARGS        (line:  17, col: 110):	Function has more than 4 arguments
+Error: SPACE_REPLACE_TAB    (line:  19, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  19, col:  16):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  20, col:  20):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  20, col:  21):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line:  21, col:  25):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  21, col:  26):	Misaligned variable declaration
+Error: SPACE_BEFORE_FUNC    (line:  33, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  33, col:  24):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  33, col:  53):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  37, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  38, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  38, col:  14):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  38, col:  14):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  38, col:  23):	Declaration and assignation on a single line
+Error: SPACE_BEFORE_FUNC    (line:  44, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  44, col:  27):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  47, col:   1):	Empty line in function
+MLX42/src/mlx_loop.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  38):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  19, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  19, col:  20):	space after pointer
+Error: VAR_DECL_START_FUNC  (line:  21, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  21, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  21, col:  15):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  21, col:  17):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  21, col:  24):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_VAR      (line:  24, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  24, col:  19):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  24, col:  19):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  24, col:  26):	Declaration and assignation on a single line
+Error: SPACE_BEFORE_FUNC    (line:  30, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  30, col:  36):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  32, col:  14):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  32, col:  14):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  32, col:  23):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  33, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  33, col:  15):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  33, col:  17):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  33, col:  24):	Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  40, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  41, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  44, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  44, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  44, col:  20):	space after pointer
+Error: ASSIGN_IN_CONTROL    (line:  45, col:  21):	Assignment in control structure
+Error: NO_SPC_AFR_PAR       (line:  45, col:  39):	Extra space after parenthesis (brace/bracket)
+Error: TOO_FEW_TAB          (line:  45, col:  41):	Missing tabs for indent level
+Error: SPACE_AFTER_KW       (line:  47, col:  13):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line:  49, col:   1):	Empty line in function
+Error: SPACE_AFTER_KW       (line:  50, col:  40):	Missing space after keyword
+Error: LINE_TOO_LONG        (line:  50, col:  82):	line too long
+Error: LINE_TOO_LONG        (line:  51, col:  88):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  54, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  55, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line:  56, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  56, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  56, col:  15):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  56, col:  17):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  56, col:  30):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_VAR      (line:  59, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  59, col:  21):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  59, col:  21):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  59, col:  32):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_VAR      (line:  60, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  60, col:  23):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  60, col:  23):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  60, col:  25):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  60, col:  34):	Declaration and assignation on a single line
+Error: CONSECUTIVE_SPC      (line:  60, col:  35):	Two or more consecutives spaces
+Error: LINE_TOO_LONG        (line:  60, col:  85):	line too long
+Error: TOO_MANY_LINES       (line:  66, col:   1):	Function has more than 25 lines
+Error: SPACE_BEFORE_FUNC    (line:  70, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  70, col:  25):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  70, col:  54):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  74, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  75, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  75, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  75, col:  15):	space after pointer
+Error: ASSIGN_IN_CONTROL    (line:  76, col:  16):	Assignment in control structure
+Error: EMPTY_LINE_FUNCTION  (line:  78, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  79, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  79, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  79, col:  15):	space after pointer
+Error: ASSIGN_IN_CONTROL    (line:  80, col:  15):	Assignment in control structure
+Error: VAR_DECL_START_FUNC  (line:  87, col:   1):	Variable declaration not at start of function
+Error: MISALIGNED_VAR_DECL  (line:  87, col:  21):	Misaligned variable declaration
+Error: SPACE_AFTER_KW       (line:  88, col:  22):	Missing space after keyword
+Error: SPACE_BEFORE_FUNC    (line:  97, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  97, col:  20):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 100, col:   1):	Empty line in function
+Error: PREPOC_ONLY_GLOBAL   (line: 101, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 102, col:   1):	Preprocessor statement must be followed by a newline
+Error: VAR_DECL_START_FUNC  (line: 102, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 102, col:  18):	Found space when expecting tab
+Error: MULT_DECL_LINE       (line: 102, col:  24):	Multiple declarations on a single line
+Error: PREPOC_ONLY_GLOBAL   (line: 103, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 104, col:   1):	Preprocessor statement must be followed by a newline
+Error: VAR_DECL_START_FUNC  (line: 104, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line: 104, col:  11):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 104, col:  12):	Misaligned variable declaration
+Error: MULT_DECL_LINE       (line: 104, col:  17):	Multiple declarations on a single line
+Error: DECL_ASSIGN_LINE     (line: 104, col:  28):	Declaration and assignation on a single line
+Error: TOO_FEW_TAB          (line: 105, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line: 105, col:   5):	Found space when expecting tab
+Error: PREPOC_ONLY_GLOBAL   (line: 107, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 108, col:   1):	Preprocessor statement must be followed by a newline
+Error: EMPTY_LINE_FUNCTION  (line: 111, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 115, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 118, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 122, col:   1):	Empty line in function
+Error: PREPOC_ONLY_GLOBAL   (line: 125, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 126, col:   1):	Preprocessor statement must be followed by a newline
+Error: PREPOC_ONLY_GLOBAL   (line: 127, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line: 128, col:   1):	Preprocessor statement must be followed by a newline
+Error: TOO_MANY_LINES       (line: 128, col:   1):	Function has more than 25 lines
+MLX42/src/mlx_monitor.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  49):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  17, col:  65):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  22, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  25, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line:  25, col:   1):	Space on empty line
+Error: VAR_DECL_START_FUNC  (line:  26, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  26, col:  12):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  27, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  27, col:  17):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  27, col:  18):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  27, col:  19):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  27, col:  28):	Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line:  28, col:   1):	Variable declarations must be followed by a newline
+Error: SPACE_AFTER_KW       (line:  29, col:   9):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line:  30, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  31, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  31, col:  22):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  31, col:  22):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  31, col:  24):	Misaligned variable declaration
+Error: ASSIGN_IN_CONTROL    (line:  32, col:  18):	Assignment in control structure
+MLX42/src/mlx_mouse.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  37):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  19, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  19, col:  16):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  20, col:  23):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  20, col:  24):	Misaligned variable declaration
+Error: SPACE_BEFORE_FUNC    (line:  25, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  25, col:  36):	space after pointer
+Error: LINE_TOO_LONG        (line:  25, col:  85):	line too long
+Error: SPACE_REPLACE_TAB    (line:  27, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  27, col:  16):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  28, col:  22):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  28, col:  23):	Misaligned variable declaration
+Error: SPACE_BEFORE_FUNC    (line:  33, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  33, col:  37):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  35, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  35, col:  16):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  36, col:  23):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  36, col:  24):	Misaligned variable declaration
+Error: SPACE_BEFORE_FUNC    (line:  43, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  43, col:  27):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  43, col:  59):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  47, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  48, col:   1):	Variable declaration not at start of function
+Error: SPC_AFTER_POINTER    (line:  48, col:  14):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  48, col:  21):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line:  54, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  54, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  54, col:  57):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  58, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  59, col:   1):	Variable declaration not at start of function
+Error: SPC_AFTER_POINTER    (line:  59, col:  14):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  59, col:  21):	Found space when expecting tab
+Error: TOO_MANY_FUNCS       (line:  65, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  65, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  65, col:  27):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  65, col:  59):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  69, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  70, col:   1):	Variable declaration not at start of function
+Error: SPC_AFTER_POINTER    (line:  70, col:  14):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  70, col:  21):	Found space when expecting tab
+Error: TOO_MANY_FUNCS       (line:  76, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  76, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  76, col:  29):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  79, col:   1):	Empty line in function
+Error: TOO_MANY_FUNCS       (line:  83, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  83, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  83, col:  29):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  86, col:   1):	Empty line in function
+Error: TOO_MANY_FUNCS       (line:  90, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  90, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  90, col:  29):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  90, col:  43):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  90, col:  55):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  95, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  96, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  96, col:  11):	Found space when expecting tab
+Error: MULT_DECL_LINE       (line:  96, col:  14):	Multiple declarations on a single line
+MLX42/src/mlx_put_pixel.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  16, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  16, col:  28):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  26, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  26, col:  31):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  31, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  32, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  32, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  32, col:  12):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  32, col:  25):	Declaration and assignation on a single line
+MLX42/src/mlx_window.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  21, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  21, col:  35):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  23, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  23, col:  20):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  24, col:  16):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  24, col:  17):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line:  26, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  27, col:   1):	line too long
+Error: VAR_DECL_START_FUNC  (line:  30, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  30, col:  16):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  30, col:  17):	Misaligned variable declaration
+Error: TERNARY_FBIDDEN      (line:  30, col:  57):	Ternaries are forbidden
+Error: LINE_TOO_LONG        (line:  30, col:  82):	line too long
+Error: VAR_DECL_START_FUNC  (line:  31, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  31, col:  16):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  31, col:  17):	Misaligned variable declaration
+Error: TERNARY_FBIDDEN      (line:  31, col:  58):	Ternaries are forbidden
+Error: LINE_TOO_LONG        (line:  31, col:  82):	line too long
+Error: VAR_DECL_START_FUNC  (line:  33, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  33, col:  16):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  33, col:  17):	Misaligned variable declaration
+Error: LINE_TOO_LONG        (line:  41, col:  82):	line too long
+Error: SPACE_BEFORE_FUNC    (line:  44, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  44, col:  43):	space after pointer
+Error: LINE_TOO_LONG        (line:  44, col:  82):	line too long
+Error: SPACE_REPLACE_TAB    (line:  46, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  46, col:  16):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  47, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  47, col:  20):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  47, col:  22):	Misaligned variable declaration
+Error: SPACE_BEFORE_FUNC    (line:  53, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  53, col:  42):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  55, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  55, col:  16):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  56, col:  22):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  56, col:  23):	Misaligned variable declaration
+Error: SPACE_BEFORE_FUNC    (line:  63, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  63, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  63, col:  57):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  67, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  68, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  68, col:  14):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  68, col:  14):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  68, col:  23):	Declaration and assignation on a single line
+Error: SPACE_BEFORE_FUNC    (line:  74, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  74, col:  27):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  74, col:  59):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  78, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  79, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  79, col:  14):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  79, col:  14):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  79, col:  23):	Declaration and assignation on a single line
+Error: TOO_MANY_FUNCS       (line:  85, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  85, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  85, col:  24):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  85, col:  44):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  89, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  90, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  90, col:  20):	Found space when expecting tab
+Error: TOO_MANY_FUNCS       (line:  99, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  99, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  99, col:  30):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 102, col:   1):	Empty line in function
+Error: TOO_MANY_FUNCS       (line: 106, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 106, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 106, col:  30):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 106, col:  44):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 106, col:  59):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 111, col:   1):	Empty line in function
+Error: TOO_MANY_FUNCS       (line: 115, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 115, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 115, col:  31):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 118, col:   1):	Empty line in function
+Error: TOO_MANY_FUNCS       (line: 124, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 124, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 124, col:  32):	space after pointer
+Error: LINE_TOO_LONG        (line: 124, col:  82):	line too long
+Error: TOO_MANY_ARGS        (line: 124, col:  98):	Function has more than 4 arguments
+Error: EMPTY_LINE_FUNCTION  (line: 127, col:   1):	Empty line in function
+Error: TOO_MANY_FUNCS       (line: 131, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 131, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 131, col:  32):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 131, col:  49):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 135, col:   1):	Empty line in function
+MLX42/src/font/font.h: Error!
+Error: SPACE_REPLACE_TAB    (line:  25, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  25, col:   9):	space after pointer
+Error: LINE_TOO_LONG        (line: 630, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 634, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 684, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 744, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 781, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 807, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 817, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 822, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 825, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 837, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 846, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 862, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 865, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 871, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 881, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 893, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 895, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 911, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 965, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 967, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 976, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 978, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 994, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1000, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1005, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1009, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1047, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1051, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1056, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1087, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1095, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1111, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1118, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1149, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1183, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1191, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1202, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1212, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1218, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1227, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1249, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1258, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1302, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1305, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1327, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1339, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1344, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1349, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1382, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1409, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1428, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1439, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1450, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1456, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1458, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1501, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1509, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1581, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1594, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1608, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1615, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1621, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1626, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1658, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1669, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1671, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1678, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1709, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1711, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1732, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1738, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1743, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1753, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1812, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1816, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1819, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1825, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1843, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1875, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1904, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1944, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1950, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1962, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1972, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1978, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 1989, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2010, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2048, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2060, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2073, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2075, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2086, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2090, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2092, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2101, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2105, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2122, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2129, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2141, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2143, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2148, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2153, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2171, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2175, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2194, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2205, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2212, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2220, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2223, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2228, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2235, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2246, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2254, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2266, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2273, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2307, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2315, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2331, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2336, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2344, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2364, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2367, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2370, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2391, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2396, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2399, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2406, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2411, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2424, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2429, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2434, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2437, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2447, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2470, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2472, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2476, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2478, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2487, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2497, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2507, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2509, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2521, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2522, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2536, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2545, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2550, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2560, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2566, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2584, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2594, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2595, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2609, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2624, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2627, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2638, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2646, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2671, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2673, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2677, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2708, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2755, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2788, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2804, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2809, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2824, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2826, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2832, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2833, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2834, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2837, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2839, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2845, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2873, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2878, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2882, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2894, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2896, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2902, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2906, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2909, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2957, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2962, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 2970, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3006, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3017, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3030, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3042, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3051, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3052, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3057, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3058, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3067, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3181, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3194, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3314, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3333, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3338, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3380, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 3537, col:  82):	line too long
+MLX42/src/font/mlx_font.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  29, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  29, col:  38):	space after pointer
+Error: LINE_TOO_LONG        (line:  29, col:  83):	line too long
+Error: SPACE_AFTER_KW       (line:  32, col:   9):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line:  33, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  34, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  34, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  34, col:   9):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  35, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  35, col:  12):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  35, col:  14):	Misaligned variable declaration
+Error: NL_AFTER_VAR_DECL    (line:  36, col:   1):	Variable declarations must be followed by a newline
+Error: FORBIDDEN_CS         (line:  36, col:   5):	Forbidden control structure
+Error: SPC_AFTER_POINTER    (line:  46, col:  20):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  46, col:  21):	space before function name
+Error: TOO_FEW_TAB          (line:  48, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  48, col:   5):	Found space when expecting tab
+Error: SPACE_AFTER_KW       (line:  48, col:  20):	Missing space after keyword
+Error: SPACE_BEFORE_FUNC    (line:  51, col:   8):	space before function name
+Error: TOO_FEW_TAB          (line:  53, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  53, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  53, col:  15):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line:  55, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line:  55, col:   5):	Comment is invalid in this scope
+Error: SPACE_EMPTY_LINE     (line:  56, col:   5):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line:  56, col:   5):	Comment is invalid in this scope
+Error: TOO_FEW_TAB          (line:  57, col:   1):	Missing tabs for indent level
+Error: SPACE_REPLACE_TAB    (line:  57, col:   5):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  60, col:  12):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  60, col:  13):	space before function name
+Error: SPC_AFTER_POINTER    (line:  60, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  60, col:  51):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  64, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  65, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  65, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  65, col:  16):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  66, col:  17):	Found space when expecting tab
+Error: NL_AFTER_VAR_DECL    (line:  67, col:   1):	Variable declarations must be followed by a newline
+Error: SPACE_AFTER_KW       (line:  68, col:  18):	Missing space after keyword
+Error: TAB_INSTEAD_SPC      (line:  68, col:  50):	Found tab when expecting space
+Error: ASSIGN_IN_CONTROL    (line:  69, col:  20):	Assignment in control structure
+Error: EMPTY_LINE_FUNCTION  (line:  71, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  72, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line:  73, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  73, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  73, col:  13):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  73, col:  23):	Declaration and assignation on a single line
+Error: FORBIDDEN_CS         (line:  74, col:   5):	Forbidden control structure
+Error: EMPTY_LINE_FUNCTION  (line:  76, col:   1):	Empty line in function
+MLX42/src/textures/mlx_png.c: Error!
+Error: SPC_AFTER_POINTER    (line:  17, col:  14):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  15):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  39):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  20, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  21, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  21, col:  18):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  21, col:  18):	space after pointer
+Error: ASSIGN_IN_CONTROL    (line:  22, col:  17):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line:  23, col:  18):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line:  24, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  25, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  25, col:  13):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  25, col:  14):	Misaligned variable declaration
+Error: ASSIGN_IN_CONTROL    (line:  27, col:  16):	Assignment in control structure
+Error: LINE_TOO_LONG        (line:  27, col:  85):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  30, col:   9):	Comment is invalid in this scope
+Error: SPACE_AFTER_KW       (line:  32, col:  18):	Missing space after keyword
+MLX42/src/textures/mlx_texture.c: Error!
+Error: SPC_AFTER_POINTER    (line:  17, col:  12):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  17, col:  13):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  40):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  17, col:  60):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  21, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  22, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  22, col:  16):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  22, col:  16):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  22, col:  24):	Declaration and assignation on a single line
+Error: EMPTY_LINE_FUNCTION  (line:  25, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  26, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  26, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  26, col:  12):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  26, col:  14):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line:  27, col:  12):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  27, col:  12):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  27, col:  14):	Misaligned variable declaration
+Error: NL_AFTER_VAR_DECL    (line:  28, col:   1):	Variable declarations must be followed by a newline
+Error: FORBIDDEN_CS         (line:  28, col:   5):	Forbidden control structure
+Error: LINE_TOO_LONG        (line:  30, col:  82):	line too long
+Error: SPACE_BEFORE_FUNC    (line:  37, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  37, col:  38):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  40, col:   1):	Empty line in function
+MLX42/src/textures/mlx_xpm42.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  48, col:  15):	space before function name
+Error: SPC_AFTER_POINTER    (line:  48, col:  42):	space after pointer
+Error: SPC_BEFORE_NL        (line:  48, col:  52):	Space before newline
+Error: SPC_BEFORE_NL        (line:  48, col:  53):	Space before newline
+Error: SPACE_REPLACE_TAB    (line:  50, col:   9):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  50, col:  22):	Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line:  51, col:   1):	Variable declarations must be followed by a newline
+Error: SPACE_BEFORE_FUNC    (line:  64, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  64, col:  39):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  64, col:  50):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  64, col:  66):	space after pointer
+Error: LINE_TOO_LONG        (line:  64, col:  82):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  66, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  67, col:   5):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  68, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  71, col:  83):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  73, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  74, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  74, col:  13):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  74, col:  20):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  75, col:  11):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  75, col:  12):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  75, col:  25):	Declaration and assignation on a single line
+Error: NL_AFTER_VAR_DECL    (line:  76, col:   1):	Variable declarations must be followed by a newline
+Error: EMPTY_LINE_FUNCTION  (line:  80, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line:  80, col:   1):	Space on empty line
+Error: VAR_DECL_START_FUNC  (line:  81, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  81, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  81, col:  13):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  81, col:  19):	Declaration and assignation on a single line
+Error: TERNARY_FBIDDEN      (line:  82, col:  38):	Ternaries are forbidden
+Error: SPACE_BEFORE_FUNC    (line:  96, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  96, col:  32):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  96, col:  43):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  96, col:  59):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  98, col:  11):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  99, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  99, col:   9):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  99, col:  11):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  99, col:  16):	Declaration and assignation on a single line
+Error: FORBIDDEN_CS         (line: 101, col:   5):	Forbidden control structure
+Error: EMPTY_LINE_FUNCTION  (line: 109, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 110, col:   9):	Comment is invalid in this scope
+Error: FORBIDDEN_CS         (line: 111, col:   9):	Forbidden control structure
+Error: LINE_TOO_LONG        (line: 111, col:  82):	line too long
+Error: WRONG_SCOPE_VAR      (line: 113, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 113, col:  20):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 113, col:  20):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 113, col:  33):	Declaration and assignation on a single line
+Error: LINE_TOO_LONG        (line: 113, col:  83):	line too long
+Error: LINE_TOO_LONG        (line: 114, col:  83):	line too long
+Error: SPACE_BEFORE_FUNC    (line: 132, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line: 132, col:  33):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 132, col:  44):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 134, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 134, col:   9):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 134, col:  16):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line: 135, col:  11):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 135, col:  12):	Misaligned variable declaration
+Error: SPACE_REPLACE_TAB    (line: 136, col:  13):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 136, col:  14):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 136, col:  33):	Declaration and assignation on a single line
+Error: FORBIDDEN_CS         (line: 138, col:   5):	Forbidden control structure
+Error: SPACE_BEFORE_FUNC    (line: 156, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line: 156, col:  38):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 159, col:  24):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line: 161, col:   5):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 166, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 167, col:   5):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 170, col:  82):	line too long
+Error: LINE_TOO_LONG        (line: 171, col:  87):	line too long
+Error: LINE_TOO_LONG        (line: 175, col:  82):	line too long
+Error: TERNARY_FBIDDEN      (line: 176, col:  41):	Ternaries are forbidden
+Error: TOO_MANY_FUNCS       (line: 181, col:   1):	Too many functions in file
+Error: SPC_AFTER_POINTER    (line: 181, col:   6):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line: 181, col:   7):	space before function name
+Error: SPC_AFTER_POINTER    (line: 181, col:  33):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 183, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 183, col:   9):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 184, col:  10):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 184, col:  10):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line: 184, col:  12):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line: 184, col:  16):	Declaration and assignation on a single line
+Error: SPACE_AFTER_KW       (line: 188, col:  18):	Missing space after keyword
+Error: ASSIGN_IN_CONTROL    (line: 189, col:  16):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line: 190, col:  18):	Missing space after keyword
+Error: ASSIGN_IN_CONTROL    (line: 191, col:  15):	Assignment in control structure
+Error: SPACE_AFTER_KW       (line: 192, col:  18):	Missing space after keyword
+Error: TOO_MANY_FUNCS       (line: 203, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 203, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 203, col:  28):	space after pointer
+MLX42/src/utils/mlx_compare.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  26):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  17, col:  44):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  19, col:  22):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  19, col:  22):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  20, col:  22):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  20, col:  22):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  25, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  25, col:  25):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  25, col:  43):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  27, col:  23):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  27, col:  23):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  28, col:  22):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  28, col:  22):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  28, col:  24):	Misaligned variable declaration
+Error: BRACE_SHOULD_EOL     (line:  31, col:   1):	Expected newline after brace
+MLX42/src/utils/mlx_error.c: Error!
+Notice: GLOBAL_VAR_DETECTED  (line:  18, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  18, col:  18):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  18, col:  18):	space after pointer
+Error: GLOBAL_VAR_NAMING    (line:  18, col:  20):	Global variable must start with g_
+Error: SPACE_BEFORE_FUNC    (line:  43, col:   5):	space before function name
+Error: PREPOC_ONLY_GLOBAL   (line:  46, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line:  47, col:   1):	Preprocessor statement must be followed by a newline
+Error: PREPOC_ONLY_GLOBAL   (line:  48, col:   1):	Preprocessor statements are only allowed in the global scope
+Error: NL_AFTER_PREPROC     (line:  49, col:   1):	Preprocessor statement must be followed by a newline
+Error: SPC_AFTER_POINTER    (line:  54, col:  11):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  54, col:  12):	space before function name
+Error: EMPTY_LINE_FUNCTION  (line:  58, col:   1):	Empty line in function
+MLX42/src/utils/mlx_list.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  17, col:   8):	space before function name
+Error: SPC_AFTER_POINTER    (line:  17, col:  31):	space after pointer
+Error: FORBIDDEN_CS         (line:  21, col:   5):	Forbidden control structure
+Error: SPACE_BEFORE_FUNC    (line:  26, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  26, col:  37):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  33, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  33, col:  30):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  33, col:  31):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  35, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  35, col:  15):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  45, col:  11):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  45, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  45, col:  28):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  47, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  47, col:  15):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  47, col:  21):	Declaration and assignation on a single line
+Error: ASSIGN_IN_CONTROL    (line:  49, col:  14):	Assignment in control structure
+Error: SPC_AFTER_POINTER    (line:  58, col:  11):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line:  58, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line:  58, col:  35):	space after pointer
+Error: TOO_MANY_FUNCS       (line:  67, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  67, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  67, col:  33):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  67, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  67, col:  50):	space after pointer
+Error: SPACE_AFTER_KW       (line:  70, col:   9):	Missing space after keyword
+Error: WRONG_SCOPE_VAR      (line:  75, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  75, col:  19):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  75, col:  19):	space after pointer
+Error: DECL_ASSIGN_LINE     (line:  75, col:  26):	Declaration and assignation on a single line
+Error: TOO_MANY_FUNCS       (line:  81, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line:  81, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  81, col:  34):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  81, col:  35):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  81, col:  51):	space after pointer
+Error: SPACE_AFTER_KW       (line:  84, col:   9):	Missing space after keyword
+Error: TOO_MANY_FUNCS       (line: 100, col:   1):	Too many functions in file
+Error: SPC_AFTER_POINTER    (line: 100, col:  11):	space after pointer
+Error: SPACE_BEFORE_FUNC    (line: 100, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line: 100, col:  38):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 100, col:  39):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 100, col:  49):	space after pointer
+Error: LINE_TOO_LONG        (line: 100, col:  82):	line too long
+Error: SPACE_REPLACE_TAB    (line: 102, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 102, col:  15):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 102, col:  24):	Declaration and assignation on a single line
+Error: TOO_MANY_FUNCS       (line: 118, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 118, col:  15):	space before function name
+Error: SPC_AFTER_POINTER    (line: 118, col:  39):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 120, col:  23):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 120, col:  23):	space after pointer
+Error: TOO_MANY_FUNCS       (line: 126, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 126, col:  12):	space before function name
+Error: SPC_AFTER_POINTER    (line: 126, col:  39):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 126, col:  40):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 126, col:  57):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 128, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 128, col:  15):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 141, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 142, col:   9):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 143, col:  83):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 146, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 147, col:   9):	Comment is invalid in this scope
+Error: TOO_MANY_FUNCS       (line: 161, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 161, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 161, col:  38):	space after pointer
+Error: SPC_AFTER_POINTER    (line: 161, col:  39):	space after pointer
+Error: SPACE_REPLACE_TAB    (line: 163, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 163, col:  15):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 163, col:  24):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line: 164, col:  15):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 164, col:  15):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 164, col:  24):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_VAR      (line: 168, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 168, col:  19):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line: 168, col:  19):	space after pointer
+Error: DECL_ASSIGN_LINE     (line: 168, col:  26):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line: 170, col:   9):	Comment is invalid in this scope
+Error: MULT_ASSIGN_LINE     (line: 171, col:  37):	Multiple assignations on a single line
+MLX42/src/utils/mlx_utils.c: Error!
+Error: LINE_TOO_LONG        (line:  19, col:   1):	line too long
+Error: LINE_TOO_LONG        (line:  21, col:   1):	line too long
+Error: SPACE_BEFORE_FUNC    (line:  28, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line:  28, col:  23):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  28, col:  24):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  28, col:  36):	space after pointer
+Error: SPC_AFTER_POINTER    (line:  28, col:  52):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line:  33, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  34, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  34, col:  11):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  34, col:  17):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  35, col:   9):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  35, col:   9):	space after pointer
+Error: MISALIGNED_VAR_DECL  (line:  35, col:  11):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  35, col:  16):	Declaration and assignation on a single line
+Error: SPACE_REPLACE_TAB    (line:  36, col:  16):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line:  36, col:  17):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: MISALIGNED_VAR_DECL  (line:  36, col:  17):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line:  36, col:  41):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  36, col:  41):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  37, col:   1):	Empty line in function
+Error: TOO_FEW_TAB          (line:  38, col:  15):	Missing tabs for indent level
+Error: TOO_MANY_INSTR       (line:  38, col:  15):	Too many instructions on a single line
+Error: EXP_NEWLINE          (line:  38, col:  29):	Expected newline after control structure
+Error: EMPTY_LINE_FUNCTION  (line:  39, col:   1):	Empty line in function
+Error: ASSIGN_IN_CONTROL    (line:  43, col:  20):	Assignment in control structure
+Error: EMPTY_LINE_FUNCTION  (line:  48, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line:  51, col:   1):	Empty line in function
+Error: TOO_MANY_LINES       (line:  58, col:   1):	Function has more than 25 lines
+Error: SPACE_BEFORE_FUNC    (line:  68, col:   9):	space before function name
+Error: SPC_AFTER_POINTER    (line:  68, col:  27):	space after pointer
+Error: SPACE_REPLACE_TAB    (line:  70, col:  19):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  71, col:  19):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  72, col:  13):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  72, col:  14):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  72, col:  19):	Declaration and assignation on a single line
+Error: FORBIDDEN_CS         (line:  74, col:   5):	Forbidden control structure
+Error: SPACE_BEFORE_FUNC    (line:  89, col:   5):	space before function name
+Error: FORBIDDEN_CS         (line:  94, col:   5):	Forbidden control structure
+Error: SPACE_AFTER_KW       (line:  95, col:  27):	Missing space after keyword
+Error: SPACE_BEFORE_FUNC    (line: 109, col:   9):	space before function name
+Error: SPACE_REPLACE_TAB    (line: 111, col:  18):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 112, col:  18):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 113, col:  18):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line: 114, col:  18):	Found space when expecting tab
+Error: SPACE_BEFORE_FUNC    (line: 121, col:   7):	space before function name
+Error: TOO_MANY_FUNCS       (line: 126, col:   1):	Too many functions in file
+Error: SPACE_BEFORE_FUNC    (line: 126, col:   5):	space before function name
+Error: SPC_AFTER_POINTER    (line: 126, col:  21):	space after pointer
+Error: EMPTY_LINE_FUNCTION  (line: 129, col:   1):	Empty line in function
+MLX42/build/mlx_vert_shader.c: Error!
+Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+Notice: GLOBAL_VAR_DETECTED  (line:  10, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  10, col:  11):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  10, col:  11):	space after pointer
+Error: GLOBAL_VAR_NAMING    (line:  10, col:  13):	Global variable must start with g_
+MLX42/build/mlx_frag_shader.c: Error!
+Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+Notice: GLOBAL_VAR_DETECTED  (line:  10, col:   1):	Global variable present in file. Make sure it is a reasonable choice.
+Error: SPACE_REPLACE_TAB    (line:  10, col:  11):	Found space when expecting tab
+Error: SPC_AFTER_POINTER    (line:  10, col:  11):	space after pointer
+Error: GLOBAL_VAR_NAMING    (line:  10, col:  13):	Global variable must start with g_
+MLX42/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c: Error!
+	[31mNo identifier after #define[0m
+ft_libft/ft_atoi.c: OK!
+ft_libft/ft_bzero.c: OK!
+ft_libft/ft_calloc.c: OK!
+ft_libft/ft_isalnum.c: OK!
+ft_libft/ft_isalpha.c: OK!
+ft_libft/ft_isascii.c: OK!
+ft_libft/ft_isdigit.c: OK!
+ft_libft/ft_isprint.c: OK!
+ft_libft/ft_itoa.c: OK!
+ft_libft/ft_lstadd_back_bonus.c: OK!
+ft_libft/ft_lstadd_front_bonus.c: OK!
+ft_libft/ft_lstclear_bonus.c: OK!
+ft_libft/ft_lstdelone_bonus.c: OK!
+ft_libft/ft_lstiter_bonus.c: OK!
+ft_libft/ft_lstlast_bonus.c: OK!
+ft_libft/ft_lstmap_bonus.c: OK!
+ft_libft/ft_lstnew_bonus.c: OK!
+ft_libft/ft_lstsize_bonus.c: OK!
+ft_libft/ft_memchr.c: OK!
+ft_libft/ft_memcmp.c: OK!
+ft_libft/ft_memcpy.c: OK!
+ft_libft/ft_memmove.c: OK!
+ft_libft/ft_memset.c: OK!
+ft_libft/ft_putchar_fd.c: OK!
+ft_libft/ft_putendl_fd.c: OK!
+ft_libft/ft_putnbr_fd.c: OK!
+ft_libft/ft_putstr_fd.c: OK!
+ft_libft/ft_split.c: OK!
+ft_libft/ft_strchr.c: OK!
+ft_libft/ft_strdup.c: OK!
+ft_libft/ft_striteri.c: OK!
+ft_libft/ft_strjoin.c: Error!
+Error: EMPTY_LINE_EOF       (line:  37, col:   1):	Empty line at end of file
+ft_libft/ft_strlcat.c: OK!
+ft_libft/ft_strlcpy.c: OK!
+ft_libft/ft_strlen.c: OK!
+ft_libft/ft_strmapi.c: OK!
+ft_libft/ft_strncmp.c: OK!
+ft_libft/ft_strnstr.c: OK!
+ft_libft/ft_strrchr.c: OK!
+ft_libft/ft_strtrim.c: OK!
+ft_libft/ft_substr.c: OK!
+ft_libft/ft_tolower.c: OK!
+ft_libft/ft_toupper.c: OK!
+ft_libft/libft.h: OK!
+ft_printf/ft_printf.c: OK!
+ft_printf/ft_printf.h: OK!
+ft_printf/ft_printf_char.c: OK!
+ft_printf/ft_printf_hex.c: OK!
+ft_printf/ft_printf_int.c: OK!
+ft_printf/ft_printf_pointer.c: OK!
+ft_printf/ft_printf_str.c: OK!
+ft_printf/ft_printf_unsigned_int.c: OK!
+ft_printf/ft_printf_utils.c: OK!
+get_next_line/get_next_line_bonus.c: OK!
+get_next_line/get_next_line_bonus.h: Error!
+Error: CONSECUTIVE_NEWLINES (line:  23, col:   1):	Consecutive newlines
+get_next_line/get_next_line_utils_bonus.c: OK!

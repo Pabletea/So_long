@@ -11,7 +11,20 @@ GNL := $(GNL_DIR)/get_next_line.a
 
 HEADERS	:= -I ./include -I $(LIBMLX)/include
 LIBS	:= $(LIBMLX)/build/libmlx42.a -ldl -lglfw -pthread -lm
-SRCS	:= $(wildcard ./src/*.c)
+SRC_DIR := ./src
+SRCS	:=	$(SRC_DIR)/free_player.c \
+			$(SRC_DIR)/hooks.c \
+			$(SRC_DIR)/map_errors.c \
+			$(SRC_DIR)/map_utils_2.c \
+			$(SRC_DIR)/map_utils.c \
+			$(SRC_DIR)/player_movement.c \
+			$(SRC_DIR)/player_movement2.c \
+			$(SRC_DIR)/player_utils.c \
+			$(SRC_DIR)/resource_manager.c \
+			$(SRC_DIR)/resource_manager2.c \
+			$(SRC_DIR)/utils.c \
+			$(SRC_DIR)/so_long.c \
+
 OBJS	:= ${SRCS:.c=.o}
 
 all: libmlx $(NAME)

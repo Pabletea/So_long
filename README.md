@@ -38,7 +38,7 @@
 | **`resources/`** | Folder contaning all the sprites the game displays   |
 | **`src/`** | Folder containing all the source code of the game   |
 | **`.gitignore.c`** | Gitignore file.   |
-| **`Makefile.c`** | Build and compilation script   |
+| **`Makefile`** | Build and compilation script   |
 
 
 

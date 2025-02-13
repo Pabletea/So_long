@@ -94,7 +94,7 @@ The game requires a `.ber` map file with the following format:
 Here’s a gameplay example:
 
 
-![game_gif](https://github.com/user-attachments/assets/ca35f19a-ba62-4587-b64e-b1e85687d71a)
+![game_gif](https://github.com/user-attachments/assets/2fc83da5-f6f8-4eec-8594-8b6ce8dbfb53)
 
 ---
 ## Author 

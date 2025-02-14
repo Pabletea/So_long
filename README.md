@@ -66,7 +66,12 @@
     sudo apt install build-essential libx11-dev libglfw3-dev libglfw3 xorg-dev
    ```
 
-3. Run the game:
+3. Compile the game:
+   ```sh
+    make
+   ```
+
+4. Run the game:
    ```sh
    ./so_long maps/map.ber
    ```
